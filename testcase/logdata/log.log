@@ -1,0 +1,1215 @@
+2025-05-08 12:22:22 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:22 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:22 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:23 DEBUG https://open.feishu.cn:443 "POST /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/search HTTP/1.1" 200 None  544
+2025-05-08 12:22:23 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:23 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:23 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:24 DEBUG https://open.feishu.cn:443 "POST /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/search HTTP/1.1" 200 None  544
+2025-05-08 12:22:24 INFO 用例ID：testcase/test_run1.py::test_data  18
+2025-05-08 12:22:24 INFO 测试结果：passed  19
+2025-05-08 12:22:24 INFO 故障表示：None  20
+2025-05-08 12:22:24 INFO 异常：None  21
+2025-05-08 12:22:24 INFO 用例耗时：1.1093993999966187  22
+2025-05-08 12:22:24 INFO **************************************  23
+2025-05-08 12:22:24 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 59042)  195
+2025-05-08 12:22:24 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x1 0x6 0x0 0x22 0x3 0x14  91
+2025-05-08 12:22:24 DEBUG decoded PDU function_code(6 sub -1) -> WriteSingleRegisterResponse(dev_id=0, transaction_id=0, address=34, count=0, bits=[], registers=[788], status=1)   113
+2025-05-08 12:22:24 DEBUG Frame advanced, resetting header!!  101
+2025-05-08 12:22:24 INFO Modbus 数据: None  42
+2025-05-08 12:22:24 DEBUG {"message": "Starting topology monitoring", "topologyId": {"$oid": "681c31800c4e1ad82847f669"}}  108
+2025-05-08 12:22:24 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31800c4e1ad82847f669"}, "previousDescription": "<TopologyDescription id: 681c31800c4e1ad82847f669, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 681c31800c4e1ad82847f669, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:24 DEBUG {"message": "Starting server monitoring", "topologyId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:24 DEBUG {"message": "Connection pool created", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:24 DEBUG {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31800c4e1ad82847f669, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31800c4e1ad82847f669"}}  108
+2025-05-08 12:22:24 DEBUG {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31800c4e1ad82847f669, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "remainingTimeMS": 29999}  108
+2025-05-08 12:22:24 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31800c4e1ad82847f669"}, "driverConnectionId": 1, "serverHost": "localhost", "serverPort": 27017, "awaited": false}  108
+2025-05-08 12:22:24 DEBUG {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "681c31800c4e1ad82847f669"}, "driverConnectionId": 1, "serverConnectionId": 371, "serverHost": "localhost", "serverPort": 27017, "awaited": false, "durationMS": 1.1279999889666215, "reply": "{\"helloOk\": true, \"ismaster\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"681aaa5b33e2328645c6be7a\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime\": {\"$date\": \"2025-05-08T04:22:24.390Z\"}, \"logicalSessionTimeoutMinutes\": 30, \"connectionId\": 371, \"maxWireVersion\": 21, \"ok\": 1.0}"}  108
+2025-05-08 12:22:24 DEBUG {"message": "Connection pool ready", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:24 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31800c4e1ad82847f669"}, "previousDescription": "<TopologyDescription id: 681c31800c4e1ad82847f669, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 681c31800c4e1ad82847f669, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0011279999889666215>]>"}  108
+2025-05-08 12:22:24 DEBUG {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31800c4e1ad82847f669, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0011279999889666215>]>", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:24 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:24 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31800c4e1ad82847f669"}, "driverConnectionId": 1, "serverConnectionId": 371, "serverHost": "localhost", "serverPort": 27017, "awaited": true}  108
+2025-05-08 12:22:24 DEBUG {"message": "Connection created", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:24 DEBUG {"message": "Connection ready", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0004067999980179593}  108
+2025-05-08 12:22:24 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.01115649999701418}  108
+2025-05-08 12:22:24 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "command": "{\"find\": \"RackDetail_TK4620417001-1\", \"sort\": {\"Getdatetime\": -1}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"uOszlO2OQ4e+atwC6X0JSg==\", \"subType\": \"04\"}}}, \"$db\": \"emsData_analyze\"}", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 373, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:24 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "durationMS": 205.171, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"681c317ea261201b7f3f7149\"}, \"SOC\": \"78.8\", \"SOH\": \"98.7\", \"BV\": \"44.4\", \"Bcc\": \"656\", \"Bcp\": \"5508\", \"BVMax\": \"0.029\", \"BVMin\": \"0.067\", \"BVAvg\": \"0.731\", \"BTMax\": \"0\", \"BTMin\": \"0\", \"BTAvg\": \"705\", \"DayInTotal\": \"0\", \"InTotal\": \"0\", \"DayOutTotal\": \"0\", \"OutTotal\": \"0\", \"MSocList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MSohList\": [\"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\"], \"MVList\": [\"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\"], \"McList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MtList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"McpList\": [\"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\"], \"MTMaxList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"MTMinList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", ...", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 373, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:24 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:24 DEBUG {"message": "Server selection started", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31800c4e1ad82847f669, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0011279999889666215>]>", "clientId": {"$oid": "681c31800c4e1ad82847f669"}}  108
+2025-05-08 12:22:24 DEBUG {"message": "Server selection succeeded", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31800c4e1ad82847f669, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0011279999889666215>]>", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:24 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:24 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 4.84000047435984e-05}  108
+2025-05-08 12:22:24 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "command": "{\"endSessions\": [{\"id\": {\"$binary\": {\"base64\": \"uOszlO2OQ4e+atwC6X0JSg==\", \"subType\": \"04\"}}}], \"$db\": \"admin\"}", "commandName": "endSessions", "databaseName": "admin", "requestId": 6334, "operationId": 6334, "driverConnectionId": 1, "serverConnectionId": 373, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:24 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "durationMS": 0.25999999999999995, "reply": "{\"ok\": 1.0}", "commandName": "endSessions", "databaseName": "admin", "requestId": 6334, "operationId": 6334, "driverConnectionId": 1, "serverConnectionId": 373, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:24 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:24 DEBUG {"message": "Stopped server monitoring", "topologyId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:24 DEBUG {"message": "Connection closed", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "Connection pool was closed", "error": "poolClosed"}  108
+2025-05-08 12:22:24 DEBUG {"message": "Connection pool closed", "clientId": {"$oid": "681c31800c4e1ad82847f669"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:24 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31800c4e1ad82847f669"}, "previousDescription": "<TopologyDescription id: 681c31800c4e1ad82847f669, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0011279999889666215>]>", "newDescription": "<TopologyDescription id: 681c31800c4e1ad82847f669, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:24 DEBUG {"message": "Stopped topology monitoring", "topologyId": {"$oid": "681c31800c4e1ad82847f669"}}  108
+2025-05-08 12:22:24 INFO MongoDB连接已关闭  87
+2025-05-08 12:22:24 INFO MongoDB 数据: 78.8  51
+2025-05-08 12:22:24 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:24 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:24 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:25 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKuYRTxhLX4 HTTP/1.1" 200 134  544
+2025-05-08 12:22:25 INFO MongoDB 数据写入成功: 78.8  54
+2025-05-08 12:22:25 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:25 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:25 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:27 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKuYRTxhLX4 HTTP/1.1" 200 131  544
+2025-05-08 12:22:27 INFO 用例ID：testcase/test_run1.py::test_modbus_and_mongodb[test_data0]  18
+2025-05-08 12:22:27 INFO 测试结果：passed  19
+2025-05-08 12:22:27 INFO 故障表示：None  20
+2025-05-08 12:22:27 INFO 异常：None  21
+2025-05-08 12:22:27 INFO 用例耗时：3.1245180999976583  22
+2025-05-08 12:22:27 INFO **************************************  23
+2025-05-08 12:22:27 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 59053)  195
+2025-05-08 12:22:27 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x1 0x6 0x0 0x20 0x1 0xbc  91
+2025-05-08 12:22:27 DEBUG decoded PDU function_code(6 sub -1) -> WriteSingleRegisterResponse(dev_id=0, transaction_id=0, address=32, count=0, bits=[], registers=[444], status=1)   113
+2025-05-08 12:22:27 DEBUG Frame advanced, resetting header!!  101
+2025-05-08 12:22:27 INFO Modbus 数据: None  42
+2025-05-08 12:22:27 DEBUG {"message": "Starting topology monitoring", "topologyId": {"$oid": "681c31830c4e1ad82847f66a"}}  108
+2025-05-08 12:22:27 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31830c4e1ad82847f66a"}, "previousDescription": "<TopologyDescription id: 681c31830c4e1ad82847f66a, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 681c31830c4e1ad82847f66a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:27 DEBUG {"message": "Starting server monitoring", "topologyId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:27 DEBUG {"message": "Connection pool created", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:27 DEBUG {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31830c4e1ad82847f66a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}}  108
+2025-05-08 12:22:27 DEBUG {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31830c4e1ad82847f66a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "remainingTimeMS": 29999}  108
+2025-05-08 12:22:27 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31830c4e1ad82847f66a"}, "driverConnectionId": 1, "serverHost": "localhost", "serverPort": 27017, "awaited": false}  108
+2025-05-08 12:22:27 DEBUG {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "681c31830c4e1ad82847f66a"}, "driverConnectionId": 1, "serverConnectionId": 374, "serverHost": "localhost", "serverPort": 27017, "awaited": false, "durationMS": 0.8322999929077923, "reply": "{\"helloOk\": true, \"ismaster\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"681aaa5b33e2328645c6be7a\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime\": {\"$date\": \"2025-05-08T04:22:27.523Z\"}, \"logicalSessionTimeoutMinutes\": 30, \"connectionId\": 374, \"maxWireVersion\": 21, \"ok\": 1.0}"}  108
+2025-05-08 12:22:27 DEBUG {"message": "Connection pool ready", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:27 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31830c4e1ad82847f66a"}, "previousDescription": "<TopologyDescription id: 681c31830c4e1ad82847f66a, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 681c31830c4e1ad82847f66a, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0008322999929077923>]>"}  108
+2025-05-08 12:22:27 DEBUG {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31830c4e1ad82847f66a, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0008322999929077923>]>", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:27 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:27 DEBUG {"message": "Connection created", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:27 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31830c4e1ad82847f66a"}, "driverConnectionId": 1, "serverConnectionId": 374, "serverHost": "localhost", "serverPort": 27017, "awaited": true}  108
+2025-05-08 12:22:27 DEBUG {"message": "Connection ready", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0007693999941693619}  108
+2025-05-08 12:22:27 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0016992000018944964}  108
+2025-05-08 12:22:27 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "command": "{\"find\": \"RackDetail_TK4620417001-1\", \"sort\": {\"Getdatetime\": -1}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"S2jcY/qaSZaZEgX2fZ/6xw==\", \"subType\": \"04\"}}}, \"$db\": \"emsData_analyze\"}", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 19169, "operationId": 19169, "driverConnectionId": 1, "serverConnectionId": 375, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:27 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "durationMS": 266.11400000000003, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"681c3182a261201b7f3f7155\"}, \"SOC\": \"78.8\", \"SOH\": \"98.7\", \"BV\": \"44.4\", \"Bcc\": \"656\", \"Bcp\": \"5508\", \"BVMax\": \"0.029\", \"BVMin\": \"0.067\", \"BVAvg\": \"0.731\", \"BTMax\": \"0\", \"BTMin\": \"0\", \"BTAvg\": \"705\", \"DayInTotal\": \"0\", \"InTotal\": \"0\", \"DayOutTotal\": \"0\", \"OutTotal\": \"0\", \"MSocList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MSohList\": [\"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\"], \"MVList\": [\"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\"], \"McList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MtList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"McpList\": [\"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\"], \"MTMaxList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"MTMinList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", ...", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 19169, "operationId": 19169, "driverConnectionId": 1, "serverConnectionId": 375, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:27 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:27 DEBUG {"message": "Server selection started", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31830c4e1ad82847f66a, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0008322999929077923>]>", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}}  108
+2025-05-08 12:22:27 DEBUG {"message": "Server selection succeeded", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31830c4e1ad82847f66a, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0008322999929077923>]>", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:27 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:27 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 4.4200001866556704e-05}  108
+2025-05-08 12:22:27 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "command": "{\"endSessions\": [{\"id\": {\"$binary\": {\"base64\": \"S2jcY/qaSZaZEgX2fZ/6xw==\", \"subType\": \"04\"}}}], \"$db\": \"admin\"}", "commandName": "endSessions", "databaseName": "admin", "requestId": 15724, "operationId": 15724, "driverConnectionId": 1, "serverConnectionId": 375, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:27 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "durationMS": 0.345, "reply": "{\"ok\": 1.0}", "commandName": "endSessions", "databaseName": "admin", "requestId": 15724, "operationId": 15724, "driverConnectionId": 1, "serverConnectionId": 375, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:27 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:27 DEBUG {"message": "Stopped server monitoring", "topologyId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:27 DEBUG {"message": "Connection closed", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "Connection pool was closed", "error": "poolClosed"}  108
+2025-05-08 12:22:27 DEBUG {"message": "Connection pool closed", "clientId": {"$oid": "681c31830c4e1ad82847f66a"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:27 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31830c4e1ad82847f66a"}, "previousDescription": "<TopologyDescription id: 681c31830c4e1ad82847f66a, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0008322999929077923>]>", "newDescription": "<TopologyDescription id: 681c31830c4e1ad82847f66a, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:27 DEBUG {"message": "Stopped topology monitoring", "topologyId": {"$oid": "681c31830c4e1ad82847f66a"}}  108
+2025-05-08 12:22:27 INFO MongoDB连接已关闭  87
+2025-05-08 12:22:27 INFO MongoDB 数据: 44.4  51
+2025-05-08 12:22:27 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:27 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:27 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:28 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recYi7EnJ4 HTTP/1.1" 200 126  544
+2025-05-08 12:22:28 INFO MongoDB 数据写入成功: 44.4  54
+2025-05-08 12:22:28 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:28 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:28 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:30 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recYi7EnJ4 HTTP/1.1" 200 123  544
+2025-05-08 12:22:30 INFO 用例ID：testcase/test_run1.py::test_modbus_and_mongodb[test_data1]  18
+2025-05-08 12:22:30 INFO 测试结果：passed  19
+2025-05-08 12:22:30 INFO 故障表示：None  20
+2025-05-08 12:22:30 INFO 异常：None  21
+2025-05-08 12:22:30 INFO 用例耗时：2.830300300003728  22
+2025-05-08 12:22:30 INFO **************************************  23
+2025-05-08 12:22:30 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 59063)  195
+2025-05-08 12:22:30 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x1 0x6 0x0 0x21 0x50 0xb0  91
+2025-05-08 12:22:30 DEBUG decoded PDU function_code(6 sub -1) -> WriteSingleRegisterResponse(dev_id=0, transaction_id=0, address=33, count=0, bits=[], registers=[20656], status=1)   113
+2025-05-08 12:22:30 DEBUG Frame advanced, resetting header!!  101
+2025-05-08 12:22:30 INFO Modbus 数据: None  42
+2025-05-08 12:22:30 DEBUG {"message": "Starting topology monitoring", "topologyId": {"$oid": "681c31860c4e1ad82847f66b"}}  108
+2025-05-08 12:22:30 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31860c4e1ad82847f66b"}, "previousDescription": "<TopologyDescription id: 681c31860c4e1ad82847f66b, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 681c31860c4e1ad82847f66b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:30 DEBUG {"message": "Starting server monitoring", "topologyId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:30 DEBUG {"message": "Connection pool created", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:30 DEBUG {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31860c4e1ad82847f66b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}}  108
+2025-05-08 12:22:30 DEBUG {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31860c4e1ad82847f66b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "remainingTimeMS": 29999}  108
+2025-05-08 12:22:30 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31860c4e1ad82847f66b"}, "driverConnectionId": 1, "serverHost": "localhost", "serverPort": 27017, "awaited": false}  108
+2025-05-08 12:22:30 DEBUG {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "681c31860c4e1ad82847f66b"}, "driverConnectionId": 1, "serverConnectionId": 377, "serverHost": "localhost", "serverPort": 27017, "awaited": false, "durationMS": 0.4138000076636672, "reply": "{\"helloOk\": true, \"ismaster\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"681aaa5b33e2328645c6be7a\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime\": {\"$date\": \"2025-05-08T04:22:30.365Z\"}, \"logicalSessionTimeoutMinutes\": 30, \"connectionId\": 377, \"maxWireVersion\": 21, \"ok\": 1.0}"}  108
+2025-05-08 12:22:30 DEBUG {"message": "Connection pool ready", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:30 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31860c4e1ad82847f66b"}, "previousDescription": "<TopologyDescription id: 681c31860c4e1ad82847f66b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 681c31860c4e1ad82847f66b, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0004138000076636672>]>"}  108
+2025-05-08 12:22:30 DEBUG {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31860c4e1ad82847f66b, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0004138000076636672>]>", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:30 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:30 DEBUG {"message": "Connection created", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:30 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31860c4e1ad82847f66b"}, "driverConnectionId": 1, "serverConnectionId": 377, "serverHost": "localhost", "serverPort": 27017, "awaited": true}  108
+2025-05-08 12:22:30 DEBUG {"message": "Connection ready", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0011481999972602352}  108
+2025-05-08 12:22:30 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.001860599993960932}  108
+2025-05-08 12:22:30 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "command": "{\"find\": \"RackDetail_TK4620417001-1\", \"sort\": {\"Getdatetime\": -1}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"jUVNDmzaTImQg6EqcNSfWA==\", \"subType\": \"04\"}}}, \"$db\": \"emsData_analyze\"}", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 29358, "operationId": 29358, "driverConnectionId": 1, "serverConnectionId": 379, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:30 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "durationMS": 233.957, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"681c3184a261201b7f3f7159\"}, \"SOC\": \"78.8\", \"SOH\": \"98.7\", \"BV\": \"44.4\", \"Bcc\": \"656\", \"Bcp\": \"5508\", \"BVMax\": \"0.029\", \"BVMin\": \"0.067\", \"BVAvg\": \"0.731\", \"BTMax\": \"0\", \"BTMin\": \"0\", \"BTAvg\": \"705\", \"DayInTotal\": \"0\", \"InTotal\": \"0\", \"DayOutTotal\": \"0\", \"OutTotal\": \"0\", \"MSocList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MSohList\": [\"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\"], \"MVList\": [\"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\"], \"McList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MtList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"McpList\": [\"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\"], \"MTMaxList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"MTMinList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", ...", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 29358, "operationId": 29358, "driverConnectionId": 1, "serverConnectionId": 379, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:30 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:30 DEBUG {"message": "Server selection started", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31860c4e1ad82847f66b, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0004138000076636672>]>", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}}  108
+2025-05-08 12:22:30 DEBUG {"message": "Server selection succeeded", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31860c4e1ad82847f66b, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0004138000076636672>]>", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:30 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:30 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 5.289999535307288e-05}  108
+2025-05-08 12:22:30 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "command": "{\"endSessions\": [{\"id\": {\"$binary\": {\"base64\": \"jUVNDmzaTImQg6EqcNSfWA==\", \"subType\": \"04\"}}}], \"$db\": \"admin\"}", "commandName": "endSessions", "databaseName": "admin", "requestId": 26962, "operationId": 26962, "driverConnectionId": 1, "serverConnectionId": 379, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:30 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "durationMS": 0.272, "reply": "{\"ok\": 1.0}", "commandName": "endSessions", "databaseName": "admin", "requestId": 26962, "operationId": 26962, "driverConnectionId": 1, "serverConnectionId": 379, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:30 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:30 DEBUG {"message": "Stopped server monitoring", "topologyId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:30 DEBUG {"message": "Connection closed", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "Connection pool was closed", "error": "poolClosed"}  108
+2025-05-08 12:22:30 DEBUG {"message": "Connection pool closed", "clientId": {"$oid": "681c31860c4e1ad82847f66b"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:30 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31860c4e1ad82847f66b"}, "previousDescription": "<TopologyDescription id: 681c31860c4e1ad82847f66b, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0004138000076636672>]>", "newDescription": "<TopologyDescription id: 681c31860c4e1ad82847f66b, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:30 DEBUG {"message": "Stopped topology monitoring", "topologyId": {"$oid": "681c31860c4e1ad82847f66b"}}  108
+2025-05-08 12:22:30 INFO MongoDB连接已关闭  87
+2025-05-08 12:22:30 INFO MongoDB 数据: 656  51
+2025-05-08 12:22:30 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:30 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:30 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:31 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuJCUc8lY1Lr HTTP/1.1" 200 133  544
+2025-05-08 12:22:31 INFO MongoDB 数据写入成功: 656  54
+2025-05-08 12:22:31 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:31 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:31 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:33 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuJCUc8lY1Lr HTTP/1.1" 200 131  544
+2025-05-08 12:22:33 INFO 用例ID：testcase/test_run1.py::test_modbus_and_mongodb[test_data2]  18
+2025-05-08 12:22:33 INFO 测试结果：passed  19
+2025-05-08 12:22:33 INFO 故障表示：None  20
+2025-05-08 12:22:33 INFO 异常：None  21
+2025-05-08 12:22:33 INFO 用例耗时：2.857134399993811  22
+2025-05-08 12:22:33 INFO **************************************  23
+2025-05-08 12:22:33 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 59073)  195
+2025-05-08 12:22:33 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x1 0x6 0x0 0x23 0x3 0xdb  91
+2025-05-08 12:22:33 DEBUG decoded PDU function_code(6 sub -1) -> WriteSingleRegisterResponse(dev_id=0, transaction_id=0, address=35, count=0, bits=[], registers=[987], status=1)   113
+2025-05-08 12:22:33 DEBUG Frame advanced, resetting header!!  101
+2025-05-08 12:22:33 INFO Modbus 数据: None  42
+2025-05-08 12:22:33 DEBUG {"message": "Starting topology monitoring", "topologyId": {"$oid": "681c31890c4e1ad82847f66c"}}  108
+2025-05-08 12:22:33 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31890c4e1ad82847f66c"}, "previousDescription": "<TopologyDescription id: 681c31890c4e1ad82847f66c, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 681c31890c4e1ad82847f66c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:33 DEBUG {"message": "Starting server monitoring", "topologyId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:33 DEBUG {"message": "Connection pool created", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:33 DEBUG {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31890c4e1ad82847f66c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}}  108
+2025-05-08 12:22:33 DEBUG {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31890c4e1ad82847f66c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "remainingTimeMS": 29999}  108
+2025-05-08 12:22:33 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31890c4e1ad82847f66c"}, "driverConnectionId": 1, "serverHost": "localhost", "serverPort": 27017, "awaited": false}  108
+2025-05-08 12:22:33 DEBUG {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "681c31890c4e1ad82847f66c"}, "driverConnectionId": 1, "serverConnectionId": 380, "serverHost": "localhost", "serverPort": 27017, "awaited": false, "durationMS": 0.48719999904278666, "reply": "{\"helloOk\": true, \"ismaster\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"681aaa5b33e2328645c6be7a\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime\": {\"$date\": \"2025-05-08T04:22:33.212Z\"}, \"logicalSessionTimeoutMinutes\": 30, \"connectionId\": 380, \"maxWireVersion\": 21, \"ok\": 1.0}"}  108
+2025-05-08 12:22:33 DEBUG {"message": "Connection pool ready", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:33 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31890c4e1ad82847f66c"}, "previousDescription": "<TopologyDescription id: 681c31890c4e1ad82847f66c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 681c31890c4e1ad82847f66c, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.00048719999904278666>]>"}  108
+2025-05-08 12:22:33 DEBUG {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31890c4e1ad82847f66c, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.00048719999904278666>]>", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:33 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:33 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31890c4e1ad82847f66c"}, "driverConnectionId": 1, "serverConnectionId": 380, "serverHost": "localhost", "serverPort": 27017, "awaited": true}  108
+2025-05-08 12:22:33 DEBUG {"message": "Connection created", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:33 DEBUG {"message": "Connection ready", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0010063000081572682}  108
+2025-05-08 12:22:33 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0025788000057218596}  108
+2025-05-08 12:22:33 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "command": "{\"find\": \"RackDetail_TK4620417001-1\", \"sort\": {\"Getdatetime\": -1}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"3q8GGu54Sp++JwGkZkzzXQ==\", \"subType\": \"04\"}}}, \"$db\": \"emsData_analyze\"}", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 5705, "operationId": 5705, "driverConnectionId": 1, "serverConnectionId": 382, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:33 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "durationMS": 205.71200000000002, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"681c3188a261201b7f3f7162\"}, \"SOC\": \"78.8\", \"SOH\": \"98.7\", \"BV\": \"44.4\", \"Bcc\": \"656\", \"Bcp\": \"5508\", \"BVMax\": \"0.029\", \"BVMin\": \"0.067\", \"BVAvg\": \"0.731\", \"BTMax\": \"0\", \"BTMin\": \"0\", \"BTAvg\": \"705\", \"DayInTotal\": \"0\", \"InTotal\": \"0\", \"DayOutTotal\": \"0\", \"OutTotal\": \"0\", \"MSocList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MSohList\": [\"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\"], \"MVList\": [\"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\"], \"McList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MtList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"McpList\": [\"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\"], \"MTMaxList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"MTMinList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", ...", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 5705, "operationId": 5705, "driverConnectionId": 1, "serverConnectionId": 382, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:33 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:33 DEBUG {"message": "Server selection started", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31890c4e1ad82847f66c, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.00048719999904278666>]>", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}}  108
+2025-05-08 12:22:33 DEBUG {"message": "Server selection succeeded", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31890c4e1ad82847f66c, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.00048719999904278666>]>", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:33 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:33 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 4.710000939667225e-05}  108
+2025-05-08 12:22:33 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "command": "{\"endSessions\": [{\"id\": {\"$binary\": {\"base64\": \"3q8GGu54Sp++JwGkZkzzXQ==\", \"subType\": \"04\"}}}], \"$db\": \"admin\"}", "commandName": "endSessions", "databaseName": "admin", "requestId": 28145, "operationId": 28145, "driverConnectionId": 1, "serverConnectionId": 382, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:33 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "durationMS": 0.265, "reply": "{\"ok\": 1.0}", "commandName": "endSessions", "databaseName": "admin", "requestId": 28145, "operationId": 28145, "driverConnectionId": 1, "serverConnectionId": 382, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:33 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:33 DEBUG {"message": "Stopped server monitoring", "topologyId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:33 DEBUG {"message": "Connection closed", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "Connection pool was closed", "error": "poolClosed"}  108
+2025-05-08 12:22:33 DEBUG {"message": "Connection pool closed", "clientId": {"$oid": "681c31890c4e1ad82847f66c"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:33 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31890c4e1ad82847f66c"}, "previousDescription": "<TopologyDescription id: 681c31890c4e1ad82847f66c, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.00048719999904278666>]>", "newDescription": "<TopologyDescription id: 681c31890c4e1ad82847f66c, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:33 DEBUG {"message": "Stopped topology monitoring", "topologyId": {"$oid": "681c31890c4e1ad82847f66c"}}  108
+2025-05-08 12:22:33 INFO MongoDB连接已关闭  87
+2025-05-08 12:22:33 INFO MongoDB 数据: 98.7  51
+2025-05-08 12:22:33 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:33 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:33 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:34 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKyYblOePGE HTTP/1.1" 200 134  544
+2025-05-08 12:22:34 INFO MongoDB 数据写入成功: 98.7  54
+2025-05-08 12:22:34 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:34 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:34 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:36 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKyYblOePGE HTTP/1.1" 200 131  544
+2025-05-08 12:22:36 INFO 用例ID：testcase/test_run1.py::test_modbus_and_mongodb[test_data3]  18
+2025-05-08 12:22:36 INFO 测试结果：passed  19
+2025-05-08 12:22:36 INFO 故障表示：None  20
+2025-05-08 12:22:36 INFO 异常：None  21
+2025-05-08 12:22:36 INFO 用例耗时：2.824894699995639  22
+2025-05-08 12:22:36 INFO **************************************  23
+2025-05-08 12:22:36 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 59089)  195
+2025-05-08 12:22:36 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x1 0x6 0x0 0x24 0x0 0x1d  91
+2025-05-08 12:22:36 DEBUG decoded PDU function_code(6 sub -1) -> WriteSingleRegisterResponse(dev_id=0, transaction_id=0, address=36, count=0, bits=[], registers=[29], status=1)   113
+2025-05-08 12:22:36 DEBUG Frame advanced, resetting header!!  101
+2025-05-08 12:22:36 INFO Modbus 数据: None  42
+2025-05-08 12:22:36 DEBUG {"message": "Starting topology monitoring", "topologyId": {"$oid": "681c318c0c4e1ad82847f66d"}}  108
+2025-05-08 12:22:36 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c318c0c4e1ad82847f66d"}, "previousDescription": "<TopologyDescription id: 681c318c0c4e1ad82847f66d, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 681c318c0c4e1ad82847f66d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:36 DEBUG {"message": "Starting server monitoring", "topologyId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:36 DEBUG {"message": "Connection pool created", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:36 DEBUG {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c318c0c4e1ad82847f66d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}}  108
+2025-05-08 12:22:36 DEBUG {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c318c0c4e1ad82847f66d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "remainingTimeMS": 29999}  108
+2025-05-08 12:22:36 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c318c0c4e1ad82847f66d"}, "driverConnectionId": 1, "serverHost": "localhost", "serverPort": 27017, "awaited": false}  108
+2025-05-08 12:22:36 DEBUG {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "681c318c0c4e1ad82847f66d"}, "driverConnectionId": 1, "serverConnectionId": 383, "serverHost": "localhost", "serverPort": 27017, "awaited": false, "durationMS": 0.930599999264814, "reply": "{\"helloOk\": true, \"ismaster\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"681aaa5b33e2328645c6be7a\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime\": {\"$date\": \"2025-05-08T04:22:36.030Z\"}, \"logicalSessionTimeoutMinutes\": 30, \"connectionId\": 383, \"maxWireVersion\": 21, \"ok\": 1.0}"}  108
+2025-05-08 12:22:36 DEBUG {"message": "Connection pool ready", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:36 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c318c0c4e1ad82847f66d"}, "previousDescription": "<TopologyDescription id: 681c318c0c4e1ad82847f66d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 681c318c0c4e1ad82847f66d, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.000930599999264814>]>"}  108
+2025-05-08 12:22:36 DEBUG {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c318c0c4e1ad82847f66d, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.000930599999264814>]>", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:36 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:36 DEBUG {"message": "Connection created", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:36 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c318c0c4e1ad82847f66d"}, "driverConnectionId": 1, "serverConnectionId": 383, "serverHost": "localhost", "serverPort": 27017, "awaited": true}  108
+2025-05-08 12:22:36 DEBUG {"message": "Connection ready", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0006302000110736117}  108
+2025-05-08 12:22:36 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0015752000035718083}  108
+2025-05-08 12:22:36 DEBUG {"message": "Command started", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "command": "{\"find\": \"RackDetail_TK4620417001-1\", \"sort\": {\"Getdatetime\": -1}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"rR9pmnaOSw6QdDAfgLnXtA==\", \"subType\": \"04\"}}}, \"$db\": \"emsData_analyze\"}", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 16827, "operationId": 16827, "driverConnectionId": 1, "serverConnectionId": 384, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:36 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "durationMS": 197.732, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"681c318aa261201b7f3f7168\"}, \"SOC\": \"78.8\", \"SOH\": \"98.7\", \"BV\": \"44.4\", \"Bcc\": \"656\", \"Bcp\": \"5508\", \"BVMax\": \"0.029\", \"BVMin\": \"0.067\", \"BVAvg\": \"0.731\", \"BTMax\": \"0\", \"BTMin\": \"0\", \"BTAvg\": \"705\", \"DayInTotal\": \"0\", \"InTotal\": \"0\", \"DayOutTotal\": \"0\", \"OutTotal\": \"0\", \"MSocList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MSohList\": [\"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\"], \"MVList\": [\"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\"], \"McList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MtList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"McpList\": [\"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\"], \"MTMaxList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"MTMinList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", ...", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 16827, "operationId": 16827, "driverConnectionId": 1, "serverConnectionId": 384, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:36 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:36 DEBUG {"message": "Server selection started", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c318c0c4e1ad82847f66d, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.000930599999264814>]>", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}}  108
+2025-05-08 12:22:36 DEBUG {"message": "Server selection succeeded", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c318c0c4e1ad82847f66d, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.000930599999264814>]>", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:36 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:36 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 3.840000135824084e-05}  108
+2025-05-08 12:22:36 DEBUG {"message": "Command started", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "command": "{\"endSessions\": [{\"id\": {\"$binary\": {\"base64\": \"rR9pmnaOSw6QdDAfgLnXtA==\", \"subType\": \"04\"}}}], \"$db\": \"admin\"}", "commandName": "endSessions", "databaseName": "admin", "requestId": 9961, "operationId": 9961, "driverConnectionId": 1, "serverConnectionId": 384, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:36 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "durationMS": 0.435, "reply": "{\"ok\": 1.0}", "commandName": "endSessions", "databaseName": "admin", "requestId": 9961, "operationId": 9961, "driverConnectionId": 1, "serverConnectionId": 384, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:36 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:36 DEBUG {"message": "Stopped server monitoring", "topologyId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:36 DEBUG {"message": "Connection closed", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "Connection pool was closed", "error": "poolClosed"}  108
+2025-05-08 12:22:36 DEBUG {"message": "Connection pool closed", "clientId": {"$oid": "681c318c0c4e1ad82847f66d"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:36 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c318c0c4e1ad82847f66d"}, "previousDescription": "<TopologyDescription id: 681c318c0c4e1ad82847f66d, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.000930599999264814>]>", "newDescription": "<TopologyDescription id: 681c318c0c4e1ad82847f66d, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:36 DEBUG {"message": "Stopped topology monitoring", "topologyId": {"$oid": "681c318c0c4e1ad82847f66d"}}  108
+2025-05-08 12:22:36 INFO MongoDB连接已关闭  87
+2025-05-08 12:22:36 INFO MongoDB 数据: 0.029  51
+2025-05-08 12:22:36 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:36 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:36 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:37 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzcdXodiKE HTTP/1.1" 200 135  544
+2025-05-08 12:22:37 INFO MongoDB 数据写入成功: 0.029  54
+2025-05-08 12:22:37 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:37 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:37 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:38 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzcdXodiKE HTTP/1.1" 200 131  544
+2025-05-08 12:22:38 INFO 用例ID：testcase/test_run1.py::test_modbus_and_mongodb[test_data4]  18
+2025-05-08 12:22:38 INFO 测试结果：failed  19
+2025-05-08 12:22:38 INFO 故障表示：test_data = {'Expected_result': '29.00', 'Mongomysqlresult': '0.029', 'Mysql/Mongo': 'BVMax', 'Title': '集群-单体最高电压值', ...}
+
+    @pytest.mark.parametrize("test_data", test_data())
+    def test_modbus_and_mongodb(test_data):
+        # 测试逻辑
+        print(type(test_data))
+        ip = test_data.get("ip")
+        port = test_data.get("port")
+        address = int(test_data.get("address"))
+        count = test_data.get("count")
+        slave = test_data.get("slave")
+        function_code = test_data.get("function_code")
+        write_value = test_data.get("write_value")
+        datatype = test_data.get("datatype")
+        dataformat = test_data.get("dataformat")
+        query_params = test_data.get("query_params")
+        collection = test_data.get("collection")
+        expected_result = test_data.get("Expected_result")
+        record_id = test_data.get("record_id")
+    
+        try:
+            # 写入modbus数据
+            modbus_data = ProcessModbusData(ip, port, address, count, slave, function_code, write_value, datatype, dataformat).write_modbus_register()
+            modbus_logger.info(f"Modbus 数据: {modbus_data}")
+        except Exception as e:
+            modbus_logger.error(f"Modbus 数据写入失败: {e}")
+            pytest.fail("Modbus 数据写入失败")
+    
+        try:
+            # 获取mongodb数据
+            mg_data = ProcessMongodbData().get_mongodb_value(query_params, collection)
+            print(f"mg_data: {mg_data}")
+            db_logger.info(f"MongoDB 数据: {mg_data}")
+            # mongodb获取结果更新到飞书
+            feishu_test_case.updata_bitable_data(record_id, "Mongomysqlresult", mg_data)
+            db_logger.info(f"MongoDB 数据写入成功: {mg_data}")
+        except Exception as e:
+            db_logger.error(f"MongoDB 数据获取失败: {e}")
+            pytest.fail("MongoDB 数据获取失败")
+    
+        if float(expected_result) == float(mg_data):
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "成功")
+        else:
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "失败")
+    
+        print(f"expected_result: {expected_result}")
+>       assert float(mg_data) == float(expected_result)
+E       AssertionError: assert 0.029 == 29.0
+E        +  where 0.029 = float('0.029')
+E        +  and   29.0 = float('29.00')
+
+test_run1.py:65: AssertionError  20
+2025-05-08 12:22:38 INFO 异常：<ExceptionInfo AssertionError("assert 0.029 == 29.0\n +  where 0.029 = float('0.029')\n +  and   29.0 = float('29.00')") tblen=27>  21
+2025-05-08 12:22:38 INFO 用例耗时：2.1119719999987865  22
+2025-05-08 12:22:38 INFO **************************************  23
+2025-05-08 12:22:38 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 59099)  195
+2025-05-08 12:22:38 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x1 0x6 0x0 0x25 0x0 0x43  91
+2025-05-08 12:22:38 DEBUG decoded PDU function_code(6 sub -1) -> WriteSingleRegisterResponse(dev_id=0, transaction_id=0, address=37, count=0, bits=[], registers=[67], status=1)   113
+2025-05-08 12:22:38 DEBUG Frame advanced, resetting header!!  101
+2025-05-08 12:22:38 INFO Modbus 数据: None  42
+2025-05-08 12:22:38 DEBUG {"message": "Starting topology monitoring", "topologyId": {"$oid": "681c318e0c4e1ad82847f66e"}}  108
+2025-05-08 12:22:38 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c318e0c4e1ad82847f66e"}, "previousDescription": "<TopologyDescription id: 681c318e0c4e1ad82847f66e, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 681c318e0c4e1ad82847f66e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:38 DEBUG {"message": "Starting server monitoring", "topologyId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:38 DEBUG {"message": "Connection pool created", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:38 DEBUG {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c318e0c4e1ad82847f66e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}}  108
+2025-05-08 12:22:38 DEBUG {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c318e0c4e1ad82847f66e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "remainingTimeMS": 29999}  108
+2025-05-08 12:22:38 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c318e0c4e1ad82847f66e"}, "driverConnectionId": 1, "serverHost": "localhost", "serverPort": 27017, "awaited": false}  108
+2025-05-08 12:22:38 DEBUG {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "681c318e0c4e1ad82847f66e"}, "driverConnectionId": 1, "serverConnectionId": 386, "serverHost": "localhost", "serverPort": 27017, "awaited": false, "durationMS": 1.0204999998677522, "reply": "{\"helloOk\": true, \"ismaster\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"681aaa5b33e2328645c6be7a\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime\": {\"$date\": \"2025-05-08T04:22:38.259Z\"}, \"logicalSessionTimeoutMinutes\": 30, \"connectionId\": 386, \"maxWireVersion\": 21, \"ok\": 1.0}"}  108
+2025-05-08 12:22:38 DEBUG {"message": "Connection pool ready", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:38 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c318e0c4e1ad82847f66e"}, "previousDescription": "<TopologyDescription id: 681c318e0c4e1ad82847f66e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 681c318e0c4e1ad82847f66e, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0010204999998677522>]>"}  108
+2025-05-08 12:22:38 DEBUG {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c318e0c4e1ad82847f66e, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0010204999998677522>]>", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:38 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:38 DEBUG {"message": "Connection created", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:38 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c318e0c4e1ad82847f66e"}, "driverConnectionId": 1, "serverConnectionId": 386, "serverHost": "localhost", "serverPort": 27017, "awaited": true}  108
+2025-05-08 12:22:38 DEBUG {"message": "Connection ready", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0008254999993368983}  108
+2025-05-08 12:22:38 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0015335000061895698}  108
+2025-05-08 12:22:38 DEBUG {"message": "Command started", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "command": "{\"find\": \"RackDetail_TK4620417001-1\", \"sort\": {\"Getdatetime\": -1}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"38AZkWpVRVqF9wf3qQPHMQ==\", \"subType\": \"04\"}}}, \"$db\": \"emsData_analyze\"}", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 2995, "operationId": 2995, "driverConnectionId": 1, "serverConnectionId": 387, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:38 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "durationMS": 190.024, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"681c318ca261201b7f3f716e\"}, \"SOC\": \"78.8\", \"SOH\": \"98.7\", \"BV\": \"44.4\", \"Bcc\": \"656\", \"Bcp\": \"5508\", \"BVMax\": \"0.029\", \"BVMin\": \"0.067\", \"BVAvg\": \"0.731\", \"BTMax\": \"0\", \"BTMin\": \"0\", \"BTAvg\": \"705\", \"DayInTotal\": \"0\", \"InTotal\": \"0\", \"DayOutTotal\": \"0\", \"OutTotal\": \"0\", \"MSocList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MSohList\": [\"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\"], \"MVList\": [\"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\"], \"McList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MtList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"McpList\": [\"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\"], \"MTMaxList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"MTMinList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", ...", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 2995, "operationId": 2995, "driverConnectionId": 1, "serverConnectionId": 387, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:38 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:38 DEBUG {"message": "Server selection started", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c318e0c4e1ad82847f66e, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0010204999998677522>]>", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}}  108
+2025-05-08 12:22:38 DEBUG {"message": "Server selection succeeded", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c318e0c4e1ad82847f66e, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0010204999998677522>]>", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:38 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:38 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 4.510000871960074e-05}  108
+2025-05-08 12:22:38 DEBUG {"message": "Command started", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "command": "{\"endSessions\": [{\"id\": {\"$binary\": {\"base64\": \"38AZkWpVRVqF9wf3qQPHMQ==\", \"subType\": \"04\"}}}], \"$db\": \"admin\"}", "commandName": "endSessions", "databaseName": "admin", "requestId": 11942, "operationId": 11942, "driverConnectionId": 1, "serverConnectionId": 387, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:38 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "durationMS": 0.24899999999999997, "reply": "{\"ok\": 1.0}", "commandName": "endSessions", "databaseName": "admin", "requestId": 11942, "operationId": 11942, "driverConnectionId": 1, "serverConnectionId": 387, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:38 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:38 DEBUG {"message": "Stopped server monitoring", "topologyId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:38 DEBUG {"message": "Connection closed", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "Connection pool was closed", "error": "poolClosed"}  108
+2025-05-08 12:22:38 DEBUG {"message": "Connection pool closed", "clientId": {"$oid": "681c318e0c4e1ad82847f66e"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:38 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c318e0c4e1ad82847f66e"}, "previousDescription": "<TopologyDescription id: 681c318e0c4e1ad82847f66e, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0010204999998677522>]>", "newDescription": "<TopologyDescription id: 681c318e0c4e1ad82847f66e, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:38 DEBUG {"message": "Stopped topology monitoring", "topologyId": {"$oid": "681c318e0c4e1ad82847f66e"}}  108
+2025-05-08 12:22:38 INFO MongoDB连接已关闭  87
+2025-05-08 12:22:38 INFO MongoDB 数据: 0.067  51
+2025-05-08 12:22:38 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:38 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:38 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:39 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzcf9CJGF9 HTTP/1.1" 200 135  544
+2025-05-08 12:22:39 INFO MongoDB 数据写入成功: 0.067  54
+2025-05-08 12:22:39 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:39 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:39 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:40 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzcf9CJGF9 HTTP/1.1" 200 131  544
+2025-05-08 12:22:40 INFO 用例ID：testcase/test_run1.py::test_modbus_and_mongodb[test_data5]  18
+2025-05-08 12:22:40 INFO 测试结果：failed  19
+2025-05-08 12:22:40 INFO 故障表示：test_data = {'Expected_result': '67.00', 'Mongomysqlresult': '0.067', 'Mysql/Mongo': 'BVMin', 'Title': '集群-单体最低电压值', ...}
+
+    @pytest.mark.parametrize("test_data", test_data())
+    def test_modbus_and_mongodb(test_data):
+        # 测试逻辑
+        print(type(test_data))
+        ip = test_data.get("ip")
+        port = test_data.get("port")
+        address = int(test_data.get("address"))
+        count = test_data.get("count")
+        slave = test_data.get("slave")
+        function_code = test_data.get("function_code")
+        write_value = test_data.get("write_value")
+        datatype = test_data.get("datatype")
+        dataformat = test_data.get("dataformat")
+        query_params = test_data.get("query_params")
+        collection = test_data.get("collection")
+        expected_result = test_data.get("Expected_result")
+        record_id = test_data.get("record_id")
+    
+        try:
+            # 写入modbus数据
+            modbus_data = ProcessModbusData(ip, port, address, count, slave, function_code, write_value, datatype, dataformat).write_modbus_register()
+            modbus_logger.info(f"Modbus 数据: {modbus_data}")
+        except Exception as e:
+            modbus_logger.error(f"Modbus 数据写入失败: {e}")
+            pytest.fail("Modbus 数据写入失败")
+    
+        try:
+            # 获取mongodb数据
+            mg_data = ProcessMongodbData().get_mongodb_value(query_params, collection)
+            print(f"mg_data: {mg_data}")
+            db_logger.info(f"MongoDB 数据: {mg_data}")
+            # mongodb获取结果更新到飞书
+            feishu_test_case.updata_bitable_data(record_id, "Mongomysqlresult", mg_data)
+            db_logger.info(f"MongoDB 数据写入成功: {mg_data}")
+        except Exception as e:
+            db_logger.error(f"MongoDB 数据获取失败: {e}")
+            pytest.fail("MongoDB 数据获取失败")
+    
+        if float(expected_result) == float(mg_data):
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "成功")
+        else:
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "失败")
+    
+        print(f"expected_result: {expected_result}")
+>       assert float(mg_data) == float(expected_result)
+E       AssertionError: assert 0.067 == 67.0
+E        +  where 0.067 = float('0.067')
+E        +  and   67.0 = float('67.00')
+
+test_run1.py:65: AssertionError  20
+2025-05-08 12:22:40 INFO 异常：<ExceptionInfo AssertionError("assert 0.067 == 67.0\n +  where 0.067 = float('0.067')\n +  and   67.0 = float('67.00')") tblen=27>  21
+2025-05-08 12:22:40 INFO 用例耗时：2.0644598999933805  22
+2025-05-08 12:22:40 INFO **************************************  23
+2025-05-08 12:22:40 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 59109)  195
+2025-05-08 12:22:40 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x1 0x6 0x0 0x26 0x2 0xdb  91
+2025-05-08 12:22:40 DEBUG decoded PDU function_code(6 sub -1) -> WriteSingleRegisterResponse(dev_id=0, transaction_id=0, address=38, count=0, bits=[], registers=[731], status=1)   113
+2025-05-08 12:22:40 DEBUG Frame advanced, resetting header!!  101
+2025-05-08 12:22:40 INFO Modbus 数据: None  42
+2025-05-08 12:22:40 DEBUG {"message": "Starting topology monitoring", "topologyId": {"$oid": "681c31900c4e1ad82847f66f"}}  108
+2025-05-08 12:22:40 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31900c4e1ad82847f66f"}, "previousDescription": "<TopologyDescription id: 681c31900c4e1ad82847f66f, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 681c31900c4e1ad82847f66f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:40 DEBUG {"message": "Starting server monitoring", "topologyId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:40 DEBUG {"message": "Connection pool created", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:40 DEBUG {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31900c4e1ad82847f66f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}}  108
+2025-05-08 12:22:40 DEBUG {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31900c4e1ad82847f66f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "remainingTimeMS": 29999}  108
+2025-05-08 12:22:40 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31900c4e1ad82847f66f"}, "driverConnectionId": 1, "serverHost": "localhost", "serverPort": 27017, "awaited": false}  108
+2025-05-08 12:22:40 DEBUG {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "681c31900c4e1ad82847f66f"}, "driverConnectionId": 1, "serverConnectionId": 389, "serverHost": "localhost", "serverPort": 27017, "awaited": false, "durationMS": 0.5237000004854053, "reply": "{\"helloOk\": true, \"ismaster\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"681aaa5b33e2328645c6be7a\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime\": {\"$date\": \"2025-05-08T04:22:40.331Z\"}, \"logicalSessionTimeoutMinutes\": 30, \"connectionId\": 389, \"maxWireVersion\": 21, \"ok\": 1.0}"}  108
+2025-05-08 12:22:40 DEBUG {"message": "Connection pool ready", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:40 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31900c4e1ad82847f66f"}, "previousDescription": "<TopologyDescription id: 681c31900c4e1ad82847f66f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 681c31900c4e1ad82847f66f, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0005237000004854053>]>"}  108
+2025-05-08 12:22:40 DEBUG {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31900c4e1ad82847f66f, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0005237000004854053>]>", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:40 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:40 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31900c4e1ad82847f66f"}, "driverConnectionId": 1, "serverConnectionId": 389, "serverHost": "localhost", "serverPort": 27017, "awaited": true}  108
+2025-05-08 12:22:40 DEBUG {"message": "Connection created", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:40 DEBUG {"message": "Connection ready", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0009886000043479726}  108
+2025-05-08 12:22:40 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0017321000050287694}  108
+2025-05-08 12:22:40 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "command": "{\"find\": \"RackDetail_TK4620417001-1\", \"sort\": {\"Getdatetime\": -1}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"dk6MJ95RT8avmsMYMTyRQQ==\", \"subType\": \"04\"}}}, \"$db\": \"emsData_analyze\"}", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 5436, "operationId": 5436, "driverConnectionId": 1, "serverConnectionId": 391, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:40 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "durationMS": 219.999, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"681c318fa261201b7f3f7172\"}, \"SOC\": \"78.8\", \"SOH\": \"98.7\", \"BV\": \"44.4\", \"Bcc\": \"656\", \"Bcp\": \"5508\", \"BVMax\": \"0.029\", \"BVMin\": \"0.067\", \"BVAvg\": \"0.731\", \"BTMax\": \"0\", \"BTMin\": \"0\", \"BTAvg\": \"705\", \"DayInTotal\": \"0\", \"InTotal\": \"0\", \"DayOutTotal\": \"0\", \"OutTotal\": \"0\", \"MSocList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MSohList\": [\"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\"], \"MVList\": [\"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\"], \"McList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MtList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"McpList\": [\"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\"], \"MTMaxList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"MTMinList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", ...", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 5436, "operationId": 5436, "driverConnectionId": 1, "serverConnectionId": 391, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:40 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:40 DEBUG {"message": "Server selection started", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31900c4e1ad82847f66f, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0005237000004854053>]>", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}}  108
+2025-05-08 12:22:40 DEBUG {"message": "Server selection succeeded", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31900c4e1ad82847f66f, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0005237000004854053>]>", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:40 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:40 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 4.2400002712383866e-05}  108
+2025-05-08 12:22:40 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "command": "{\"endSessions\": [{\"id\": {\"$binary\": {\"base64\": \"dk6MJ95RT8avmsMYMTyRQQ==\", \"subType\": \"04\"}}}], \"$db\": \"admin\"}", "commandName": "endSessions", "databaseName": "admin", "requestId": 32391, "operationId": 32391, "driverConnectionId": 1, "serverConnectionId": 391, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:40 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "durationMS": 0.40099999999999997, "reply": "{\"ok\": 1.0}", "commandName": "endSessions", "databaseName": "admin", "requestId": 32391, "operationId": 32391, "driverConnectionId": 1, "serverConnectionId": 391, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:40 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:40 DEBUG {"message": "Stopped server monitoring", "topologyId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:40 DEBUG {"message": "Connection closed", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "Connection pool was closed", "error": "poolClosed"}  108
+2025-05-08 12:22:40 DEBUG {"message": "Connection pool closed", "clientId": {"$oid": "681c31900c4e1ad82847f66f"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:40 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31900c4e1ad82847f66f"}, "previousDescription": "<TopologyDescription id: 681c31900c4e1ad82847f66f, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0005237000004854053>]>", "newDescription": "<TopologyDescription id: 681c31900c4e1ad82847f66f, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:40 DEBUG {"message": "Stopped topology monitoring", "topologyId": {"$oid": "681c31900c4e1ad82847f66f"}}  108
+2025-05-08 12:22:40 INFO MongoDB连接已关闭  87
+2025-05-08 12:22:40 INFO MongoDB 数据: 0.731  51
+2025-05-08 12:22:40 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:40 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:40 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:41 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKze9P9k8pG HTTP/1.1" 200 135  544
+2025-05-08 12:22:41 INFO MongoDB 数据写入成功: 0.731  54
+2025-05-08 12:22:41 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:41 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:41 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:42 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKze9P9k8pG HTTP/1.1" 200 131  544
+2025-05-08 12:22:42 INFO 用例ID：testcase/test_run1.py::test_modbus_and_mongodb[test_data6]  18
+2025-05-08 12:22:42 INFO 测试结果：failed  19
+2025-05-08 12:22:42 INFO 故障表示：test_data = {'Expected_result': '731.00', 'Mongomysqlresult': '0.731', 'Mysql/Mongo': 'BVAvg', 'Title': '集群-单体平均电压值', ...}
+
+    @pytest.mark.parametrize("test_data", test_data())
+    def test_modbus_and_mongodb(test_data):
+        # 测试逻辑
+        print(type(test_data))
+        ip = test_data.get("ip")
+        port = test_data.get("port")
+        address = int(test_data.get("address"))
+        count = test_data.get("count")
+        slave = test_data.get("slave")
+        function_code = test_data.get("function_code")
+        write_value = test_data.get("write_value")
+        datatype = test_data.get("datatype")
+        dataformat = test_data.get("dataformat")
+        query_params = test_data.get("query_params")
+        collection = test_data.get("collection")
+        expected_result = test_data.get("Expected_result")
+        record_id = test_data.get("record_id")
+    
+        try:
+            # 写入modbus数据
+            modbus_data = ProcessModbusData(ip, port, address, count, slave, function_code, write_value, datatype, dataformat).write_modbus_register()
+            modbus_logger.info(f"Modbus 数据: {modbus_data}")
+        except Exception as e:
+            modbus_logger.error(f"Modbus 数据写入失败: {e}")
+            pytest.fail("Modbus 数据写入失败")
+    
+        try:
+            # 获取mongodb数据
+            mg_data = ProcessMongodbData().get_mongodb_value(query_params, collection)
+            print(f"mg_data: {mg_data}")
+            db_logger.info(f"MongoDB 数据: {mg_data}")
+            # mongodb获取结果更新到飞书
+            feishu_test_case.updata_bitable_data(record_id, "Mongomysqlresult", mg_data)
+            db_logger.info(f"MongoDB 数据写入成功: {mg_data}")
+        except Exception as e:
+            db_logger.error(f"MongoDB 数据获取失败: {e}")
+            pytest.fail("MongoDB 数据获取失败")
+    
+        if float(expected_result) == float(mg_data):
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "成功")
+        else:
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "失败")
+    
+        print(f"expected_result: {expected_result}")
+>       assert float(mg_data) == float(expected_result)
+E       AssertionError: assert 0.731 == 731.0
+E        +  where 0.731 = float('0.731')
+E        +  and   731.0 = float('731.00')
+
+test_run1.py:65: AssertionError  20
+2025-05-08 12:22:42 INFO 异常：<ExceptionInfo AssertionError("assert 0.731 == 731.0\n +  where 0.731 = float('0.731')\n +  and   731.0 = float('731.00')") tblen=27>  21
+2025-05-08 12:22:42 INFO 用例耗时：2.372720899991691  22
+2025-05-08 12:22:42 INFO **************************************  23
+2025-05-08 12:22:42 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 59119)  195
+2025-05-08 12:22:42 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x1 0x6 0x0 0x27 0x2 0xe6  91
+2025-05-08 12:22:42 DEBUG decoded PDU function_code(6 sub -1) -> WriteSingleRegisterResponse(dev_id=0, transaction_id=0, address=39, count=0, bits=[], registers=[742], status=1)   113
+2025-05-08 12:22:42 DEBUG Frame advanced, resetting header!!  101
+2025-05-08 12:22:42 INFO Modbus 数据: None  42
+2025-05-08 12:22:42 DEBUG {"message": "Starting topology monitoring", "topologyId": {"$oid": "681c31920c4e1ad82847f670"}}  108
+2025-05-08 12:22:42 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31920c4e1ad82847f670"}, "previousDescription": "<TopologyDescription id: 681c31920c4e1ad82847f670, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 681c31920c4e1ad82847f670, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:42 DEBUG {"message": "Starting server monitoring", "topologyId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:42 DEBUG {"message": "Connection pool created", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:42 DEBUG {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31920c4e1ad82847f670, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31920c4e1ad82847f670"}}  108
+2025-05-08 12:22:42 DEBUG {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31920c4e1ad82847f670, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "remainingTimeMS": 29999}  108
+2025-05-08 12:22:42 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31920c4e1ad82847f670"}, "driverConnectionId": 1, "serverHost": "localhost", "serverPort": 27017, "awaited": false}  108
+2025-05-08 12:22:42 DEBUG {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "681c31920c4e1ad82847f670"}, "driverConnectionId": 1, "serverConnectionId": 392, "serverHost": "localhost", "serverPort": 27017, "awaited": false, "durationMS": 0.5237000004854053, "reply": "{\"helloOk\": true, \"ismaster\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"681aaa5b33e2328645c6be7a\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime\": {\"$date\": \"2025-05-08T04:22:42.719Z\"}, \"logicalSessionTimeoutMinutes\": 30, \"connectionId\": 392, \"maxWireVersion\": 21, \"ok\": 1.0}"}  108
+2025-05-08 12:22:42 DEBUG {"message": "Connection pool ready", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:42 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31920c4e1ad82847f670"}, "previousDescription": "<TopologyDescription id: 681c31920c4e1ad82847f670, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 681c31920c4e1ad82847f670, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0005237000004854053>]>"}  108
+2025-05-08 12:22:42 DEBUG {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31920c4e1ad82847f670, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0005237000004854053>]>", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:42 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:42 DEBUG {"message": "Connection created", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:42 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31920c4e1ad82847f670"}, "driverConnectionId": 1, "serverConnectionId": 392, "serverHost": "localhost", "serverPort": 27017, "awaited": true}  108
+2025-05-08 12:22:42 DEBUG {"message": "Connection ready", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.000887800008058548}  108
+2025-05-08 12:22:42 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0017085999861592427}  108
+2025-05-08 12:22:42 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "command": "{\"find\": \"RackDetail_TK4620417001-1\", \"sort\": {\"Getdatetime\": -1}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"rO9Oc+dsSIOUorOvObsUUQ==\", \"subType\": \"04\"}}}, \"$db\": \"emsData_analyze\"}", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 3902, "operationId": 3902, "driverConnectionId": 1, "serverConnectionId": 394, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:42 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "durationMS": 206.2, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"681c3191a261201b7f3f7178\"}, \"SOC\": \"78.8\", \"SOH\": \"98.7\", \"BV\": \"44.4\", \"Bcc\": \"656\", \"Bcp\": \"5508\", \"BVMax\": \"0.029\", \"BVMin\": \"0.067\", \"BVAvg\": \"0.731\", \"BTMax\": \"0\", \"BTMin\": \"0\", \"BTAvg\": \"705\", \"DayInTotal\": \"0\", \"InTotal\": \"0\", \"DayOutTotal\": \"0\", \"OutTotal\": \"0\", \"MSocList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MSohList\": [\"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\"], \"MVList\": [\"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\"], \"McList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MtList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"McpList\": [\"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\"], \"MTMaxList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"MTMinList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", ...", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 3902, "operationId": 3902, "driverConnectionId": 1, "serverConnectionId": 394, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:42 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:42 DEBUG {"message": "Server selection started", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31920c4e1ad82847f670, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0005237000004854053>]>", "clientId": {"$oid": "681c31920c4e1ad82847f670"}}  108
+2025-05-08 12:22:42 DEBUG {"message": "Server selection succeeded", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31920c4e1ad82847f670, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0005237000004854053>]>", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:42 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:42 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 3.8300000596791506e-05}  108
+2025-05-08 12:22:42 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "command": "{\"endSessions\": [{\"id\": {\"$binary\": {\"base64\": \"rO9Oc+dsSIOUorOvObsUUQ==\", \"subType\": \"04\"}}}], \"$db\": \"admin\"}", "commandName": "endSessions", "databaseName": "admin", "requestId": 153, "operationId": 153, "driverConnectionId": 1, "serverConnectionId": 394, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:42 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "durationMS": 0.34400000000000003, "reply": "{\"ok\": 1.0}", "commandName": "endSessions", "databaseName": "admin", "requestId": 153, "operationId": 153, "driverConnectionId": 1, "serverConnectionId": 394, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:42 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:42 DEBUG {"message": "Stopped server monitoring", "topologyId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:42 DEBUG {"message": "Connection closed", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "Connection pool was closed", "error": "poolClosed"}  108
+2025-05-08 12:22:42 DEBUG {"message": "Connection pool closed", "clientId": {"$oid": "681c31920c4e1ad82847f670"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:42 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31920c4e1ad82847f670"}, "previousDescription": "<TopologyDescription id: 681c31920c4e1ad82847f670, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0005237000004854053>]>", "newDescription": "<TopologyDescription id: 681c31920c4e1ad82847f670, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:42 DEBUG {"message": "Stopped topology monitoring", "topologyId": {"$oid": "681c31920c4e1ad82847f670"}}  108
+2025-05-08 12:22:42 INFO MongoDB连接已关闭  87
+2025-05-08 12:22:42 INFO MongoDB 数据: 0  51
+2025-05-08 12:22:42 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:43 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:43 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:44 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKze9ZWG6ot HTTP/1.1" 200 131  544
+2025-05-08 12:22:44 INFO MongoDB 数据写入成功: 0  54
+2025-05-08 12:22:44 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:44 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:44 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:45 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKze9ZWG6ot HTTP/1.1" 200 131  544
+2025-05-08 12:22:45 INFO 用例ID：testcase/test_run1.py::test_modbus_and_mongodb[test_data7]  18
+2025-05-08 12:22:45 INFO 测试结果：failed  19
+2025-05-08 12:22:45 INFO 故障表示：test_data = {'Expected_result': '692.00', 'Mongomysqlresult': '0', 'Mysql/Mongo': 'BTMax', 'Title': '集群-单体最高温度值', ...}
+
+    @pytest.mark.parametrize("test_data", test_data())
+    def test_modbus_and_mongodb(test_data):
+        # 测试逻辑
+        print(type(test_data))
+        ip = test_data.get("ip")
+        port = test_data.get("port")
+        address = int(test_data.get("address"))
+        count = test_data.get("count")
+        slave = test_data.get("slave")
+        function_code = test_data.get("function_code")
+        write_value = test_data.get("write_value")
+        datatype = test_data.get("datatype")
+        dataformat = test_data.get("dataformat")
+        query_params = test_data.get("query_params")
+        collection = test_data.get("collection")
+        expected_result = test_data.get("Expected_result")
+        record_id = test_data.get("record_id")
+    
+        try:
+            # 写入modbus数据
+            modbus_data = ProcessModbusData(ip, port, address, count, slave, function_code, write_value, datatype, dataformat).write_modbus_register()
+            modbus_logger.info(f"Modbus 数据: {modbus_data}")
+        except Exception as e:
+            modbus_logger.error(f"Modbus 数据写入失败: {e}")
+            pytest.fail("Modbus 数据写入失败")
+    
+        try:
+            # 获取mongodb数据
+            mg_data = ProcessMongodbData().get_mongodb_value(query_params, collection)
+            print(f"mg_data: {mg_data}")
+            db_logger.info(f"MongoDB 数据: {mg_data}")
+            # mongodb获取结果更新到飞书
+            feishu_test_case.updata_bitable_data(record_id, "Mongomysqlresult", mg_data)
+            db_logger.info(f"MongoDB 数据写入成功: {mg_data}")
+        except Exception as e:
+            db_logger.error(f"MongoDB 数据获取失败: {e}")
+            pytest.fail("MongoDB 数据获取失败")
+    
+        if float(expected_result) == float(mg_data):
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "成功")
+        else:
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "失败")
+    
+        print(f"expected_result: {expected_result}")
+>       assert float(mg_data) == float(expected_result)
+E       AssertionError: assert 0.0 == 692.0
+E        +  where 0.0 = float('0')
+E        +  and   692.0 = float('692.00')
+
+test_run1.py:65: AssertionError  20
+2025-05-08 12:22:45 INFO 异常：<ExceptionInfo AssertionError("assert 0.0 == 692.0\n +  where 0.0 = float('0')\n +  and   692.0 = float('692.00')") tblen=27>  21
+2025-05-08 12:22:45 INFO 用例耗时：2.5834237999952165  22
+2025-05-08 12:22:45 INFO **************************************  23
+2025-05-08 12:22:45 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 59129)  195
+2025-05-08 12:22:45 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x1 0x6 0x0 0x28 0x2 0xdd  91
+2025-05-08 12:22:45 DEBUG decoded PDU function_code(6 sub -1) -> WriteSingleRegisterResponse(dev_id=0, transaction_id=0, address=40, count=0, bits=[], registers=[733], status=1)   113
+2025-05-08 12:22:45 DEBUG Frame advanced, resetting header!!  101
+2025-05-08 12:22:45 INFO Modbus 数据: None  42
+2025-05-08 12:22:45 DEBUG {"message": "Starting topology monitoring", "topologyId": {"$oid": "681c31950c4e1ad82847f671"}}  108
+2025-05-08 12:22:45 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31950c4e1ad82847f671"}, "previousDescription": "<TopologyDescription id: 681c31950c4e1ad82847f671, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 681c31950c4e1ad82847f671, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:45 DEBUG {"message": "Starting server monitoring", "topologyId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:45 DEBUG {"message": "Connection pool created", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:45 DEBUG {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31950c4e1ad82847f671, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31950c4e1ad82847f671"}}  108
+2025-05-08 12:22:45 DEBUG {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31950c4e1ad82847f671, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "remainingTimeMS": 29999}  108
+2025-05-08 12:22:45 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31950c4e1ad82847f671"}, "driverConnectionId": 1, "serverHost": "localhost", "serverPort": 27017, "awaited": false}  108
+2025-05-08 12:22:45 DEBUG {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "681c31950c4e1ad82847f671"}, "driverConnectionId": 1, "serverConnectionId": 395, "serverHost": "localhost", "serverPort": 27017, "awaited": false, "durationMS": 0.6985999934840947, "reply": "{\"helloOk\": true, \"ismaster\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"681aaa5b33e2328645c6be7a\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime\": {\"$date\": \"2025-05-08T04:22:45.288Z\"}, \"logicalSessionTimeoutMinutes\": 30, \"connectionId\": 395, \"maxWireVersion\": 21, \"ok\": 1.0}"}  108
+2025-05-08 12:22:45 DEBUG {"message": "Connection pool ready", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:45 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31950c4e1ad82847f671"}, "previousDescription": "<TopologyDescription id: 681c31950c4e1ad82847f671, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 681c31950c4e1ad82847f671, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0006985999934840947>]>"}  108
+2025-05-08 12:22:45 DEBUG {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31950c4e1ad82847f671, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0006985999934840947>]>", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:45 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:45 DEBUG {"message": "Connection created", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:45 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31950c4e1ad82847f671"}, "driverConnectionId": 1, "serverConnectionId": 395, "serverHost": "localhost", "serverPort": 27017, "awaited": true}  108
+2025-05-08 12:22:45 DEBUG {"message": "Connection ready", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0003899000003002584}  108
+2025-05-08 12:22:45 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.01109280000673607}  108
+2025-05-08 12:22:45 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "command": "{\"find\": \"RackDetail_TK4620417001-1\", \"sort\": {\"Getdatetime\": -1}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"2dWvrYUeTqahcskcZyd75A==\", \"subType\": \"04\"}}}, \"$db\": \"emsData_analyze\"}", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 12382, "operationId": 12382, "driverConnectionId": 1, "serverConnectionId": 397, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:45 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "durationMS": 227.242, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"681c3195a261201b7f3f7185\"}, \"SOC\": \"78.8\", \"SOH\": \"98.7\", \"BV\": \"44.4\", \"Bcc\": \"656\", \"Bcp\": \"5508\", \"BVMax\": \"0.029\", \"BVMin\": \"0.067\", \"BVAvg\": \"0.731\", \"BTMax\": \"0\", \"BTMin\": \"0\", \"BTAvg\": \"705\", \"DayInTotal\": \"0\", \"InTotal\": \"0\", \"DayOutTotal\": \"0\", \"OutTotal\": \"0\", \"MSocList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MSohList\": [\"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\"], \"MVList\": [\"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\"], \"McList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MtList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"McpList\": [\"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\"], \"MTMaxList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"MTMinList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", ...", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 12382, "operationId": 12382, "driverConnectionId": 1, "serverConnectionId": 397, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:45 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:45 DEBUG {"message": "Server selection started", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31950c4e1ad82847f671, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0006985999934840947>]>", "clientId": {"$oid": "681c31950c4e1ad82847f671"}}  108
+2025-05-08 12:22:45 DEBUG {"message": "Server selection succeeded", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31950c4e1ad82847f671, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0006985999934840947>]>", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:45 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:45 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 4.030000127386302e-05}  108
+2025-05-08 12:22:45 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "command": "{\"endSessions\": [{\"id\": {\"$binary\": {\"base64\": \"2dWvrYUeTqahcskcZyd75A==\", \"subType\": \"04\"}}}], \"$db\": \"admin\"}", "commandName": "endSessions", "databaseName": "admin", "requestId": 17421, "operationId": 17421, "driverConnectionId": 1, "serverConnectionId": 397, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:45 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "durationMS": 0.392, "reply": "{\"ok\": 1.0}", "commandName": "endSessions", "databaseName": "admin", "requestId": 17421, "operationId": 17421, "driverConnectionId": 1, "serverConnectionId": 397, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:45 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:45 DEBUG {"message": "Stopped server monitoring", "topologyId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:45 DEBUG {"message": "Connection closed", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "Connection pool was closed", "error": "poolClosed"}  108
+2025-05-08 12:22:45 DEBUG {"message": "Connection pool closed", "clientId": {"$oid": "681c31950c4e1ad82847f671"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:45 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31950c4e1ad82847f671"}, "previousDescription": "<TopologyDescription id: 681c31950c4e1ad82847f671, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0006985999934840947>]>", "newDescription": "<TopologyDescription id: 681c31950c4e1ad82847f671, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:45 DEBUG {"message": "Stopped topology monitoring", "topologyId": {"$oid": "681c31950c4e1ad82847f671"}}  108
+2025-05-08 12:22:45 INFO MongoDB连接已关闭  87
+2025-05-08 12:22:45 INFO MongoDB 数据: 0  51
+2025-05-08 12:22:45 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:45 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:45 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:46 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzeadRQ9t4 HTTP/1.1" 200 131  544
+2025-05-08 12:22:46 INFO MongoDB 数据写入成功: 0  54
+2025-05-08 12:22:46 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:46 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:46 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:47 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzeadRQ9t4 HTTP/1.1" 200 131  544
+2025-05-08 12:22:47 INFO 用例ID：testcase/test_run1.py::test_modbus_and_mongodb[test_data8]  18
+2025-05-08 12:22:47 INFO 测试结果：failed  19
+2025-05-08 12:22:47 INFO 故障表示：test_data = {'Expected_result': '683.00', 'Mongomysqlresult': '0', 'Mysql/Mongo': 'BTMin', 'Title': '集群-单体最低温度值', ...}
+
+    @pytest.mark.parametrize("test_data", test_data())
+    def test_modbus_and_mongodb(test_data):
+        # 测试逻辑
+        print(type(test_data))
+        ip = test_data.get("ip")
+        port = test_data.get("port")
+        address = int(test_data.get("address"))
+        count = test_data.get("count")
+        slave = test_data.get("slave")
+        function_code = test_data.get("function_code")
+        write_value = test_data.get("write_value")
+        datatype = test_data.get("datatype")
+        dataformat = test_data.get("dataformat")
+        query_params = test_data.get("query_params")
+        collection = test_data.get("collection")
+        expected_result = test_data.get("Expected_result")
+        record_id = test_data.get("record_id")
+    
+        try:
+            # 写入modbus数据
+            modbus_data = ProcessModbusData(ip, port, address, count, slave, function_code, write_value, datatype, dataformat).write_modbus_register()
+            modbus_logger.info(f"Modbus 数据: {modbus_data}")
+        except Exception as e:
+            modbus_logger.error(f"Modbus 数据写入失败: {e}")
+            pytest.fail("Modbus 数据写入失败")
+    
+        try:
+            # 获取mongodb数据
+            mg_data = ProcessMongodbData().get_mongodb_value(query_params, collection)
+            print(f"mg_data: {mg_data}")
+            db_logger.info(f"MongoDB 数据: {mg_data}")
+            # mongodb获取结果更新到飞书
+            feishu_test_case.updata_bitable_data(record_id, "Mongomysqlresult", mg_data)
+            db_logger.info(f"MongoDB 数据写入成功: {mg_data}")
+        except Exception as e:
+            db_logger.error(f"MongoDB 数据获取失败: {e}")
+            pytest.fail("MongoDB 数据获取失败")
+    
+        if float(expected_result) == float(mg_data):
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "成功")
+        else:
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "失败")
+    
+        print(f"expected_result: {expected_result}")
+>       assert float(mg_data) == float(expected_result)
+E       AssertionError: assert 0.0 == 683.0
+E        +  where 0.0 = float('0')
+E        +  and   683.0 = float('683.00')
+
+test_run1.py:65: AssertionError  20
+2025-05-08 12:22:47 INFO 异常：<ExceptionInfo AssertionError("assert 0.0 == 683.0\n +  where 0.0 = float('0')\n +  and   683.0 = float('683.00')") tblen=27>  21
+2025-05-08 12:22:47 INFO 用例耗时：2.1605445000022883  22
+2025-05-08 12:22:47 INFO **************************************  23
+2025-05-08 12:22:47 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 59143)  195
+2025-05-08 12:22:47 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x1 0x6 0x0 0x29 0x2 0xf3  91
+2025-05-08 12:22:47 DEBUG decoded PDU function_code(6 sub -1) -> WriteSingleRegisterResponse(dev_id=0, transaction_id=0, address=41, count=0, bits=[], registers=[755], status=1)   113
+2025-05-08 12:22:47 DEBUG Frame advanced, resetting header!!  101
+2025-05-08 12:22:47 INFO Modbus 数据: None  42
+2025-05-08 12:22:47 DEBUG {"message": "Starting topology monitoring", "topologyId": {"$oid": "681c31970c4e1ad82847f672"}}  108
+2025-05-08 12:22:47 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31970c4e1ad82847f672"}, "previousDescription": "<TopologyDescription id: 681c31970c4e1ad82847f672, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 681c31970c4e1ad82847f672, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:47 DEBUG {"message": "Starting server monitoring", "topologyId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:47 DEBUG {"message": "Connection pool created", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:47 DEBUG {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31970c4e1ad82847f672, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31970c4e1ad82847f672"}}  108
+2025-05-08 12:22:47 DEBUG {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31970c4e1ad82847f672, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "remainingTimeMS": 29999}  108
+2025-05-08 12:22:47 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31970c4e1ad82847f672"}, "driverConnectionId": 1, "serverHost": "localhost", "serverPort": 27017, "awaited": false}  108
+2025-05-08 12:22:47 DEBUG {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "681c31970c4e1ad82847f672"}, "driverConnectionId": 1, "serverConnectionId": 398, "serverHost": "localhost", "serverPort": 27017, "awaited": false, "durationMS": 0.818300002720207, "reply": "{\"helloOk\": true, \"ismaster\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"681aaa5b33e2328645c6be7a\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime\": {\"$date\": \"2025-05-08T04:22:47.454Z\"}, \"logicalSessionTimeoutMinutes\": 30, \"connectionId\": 398, \"maxWireVersion\": 21, \"ok\": 1.0}"}  108
+2025-05-08 12:22:47 DEBUG {"message": "Connection pool ready", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:47 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31970c4e1ad82847f672"}, "previousDescription": "<TopologyDescription id: 681c31970c4e1ad82847f672, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 681c31970c4e1ad82847f672, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.000818300002720207>]>"}  108
+2025-05-08 12:22:47 DEBUG {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31970c4e1ad82847f672, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.000818300002720207>]>", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:47 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:47 DEBUG {"message": "Connection created", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:47 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31970c4e1ad82847f672"}, "driverConnectionId": 1, "serverConnectionId": 398, "serverHost": "localhost", "serverPort": 27017, "awaited": true}  108
+2025-05-08 12:22:47 DEBUG {"message": "Connection ready", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0003935999993700534}  108
+2025-05-08 12:22:47 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.01251590000174474}  108
+2025-05-08 12:22:47 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "command": "{\"find\": \"RackDetail_TK4620417001-1\", \"sort\": {\"Getdatetime\": -1}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"R3xxtUbxRnCusroMCpbH8A==\", \"subType\": \"04\"}}}, \"$db\": \"emsData_analyze\"}", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 19718, "operationId": 19718, "driverConnectionId": 1, "serverConnectionId": 399, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:47 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "durationMS": 245.124, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"681c3197a261201b7f3f718b\"}, \"SOC\": \"78.8\", \"SOH\": \"98.7\", \"BV\": \"44.4\", \"Bcc\": \"656\", \"Bcp\": \"5508\", \"BVMax\": \"0.029\", \"BVMin\": \"0.067\", \"BVAvg\": \"0.731\", \"BTMax\": \"0\", \"BTMin\": \"0\", \"BTAvg\": \"705\", \"DayInTotal\": \"0\", \"InTotal\": \"0\", \"DayOutTotal\": \"0\", \"OutTotal\": \"0\", \"MSocList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MSohList\": [\"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\"], \"MVList\": [\"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\"], \"McList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MtList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"McpList\": [\"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\"], \"MTMaxList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"MTMinList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", ...", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 19718, "operationId": 19718, "driverConnectionId": 1, "serverConnectionId": 399, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:47 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:47 DEBUG {"message": "Server selection started", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31970c4e1ad82847f672, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.000818300002720207>]>", "clientId": {"$oid": "681c31970c4e1ad82847f672"}}  108
+2025-05-08 12:22:47 DEBUG {"message": "Server selection succeeded", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31970c4e1ad82847f672, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.000818300002720207>]>", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:47 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:47 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 4.260000423528254e-05}  108
+2025-05-08 12:22:47 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "command": "{\"endSessions\": [{\"id\": {\"$binary\": {\"base64\": \"R3xxtUbxRnCusroMCpbH8A==\", \"subType\": \"04\"}}}], \"$db\": \"admin\"}", "commandName": "endSessions", "databaseName": "admin", "requestId": 19895, "operationId": 19895, "driverConnectionId": 1, "serverConnectionId": 399, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:47 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "durationMS": 0.58, "reply": "{\"ok\": 1.0}", "commandName": "endSessions", "databaseName": "admin", "requestId": 19895, "operationId": 19895, "driverConnectionId": 1, "serverConnectionId": 399, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:47 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:47 DEBUG {"message": "Stopped server monitoring", "topologyId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:47 DEBUG {"message": "Connection closed", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "Connection pool was closed", "error": "poolClosed"}  108
+2025-05-08 12:22:47 DEBUG {"message": "Connection pool closed", "clientId": {"$oid": "681c31970c4e1ad82847f672"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:47 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31970c4e1ad82847f672"}, "previousDescription": "<TopologyDescription id: 681c31970c4e1ad82847f672, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.000818300002720207>]>", "newDescription": "<TopologyDescription id: 681c31970c4e1ad82847f672, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:47 DEBUG {"message": "Stopped topology monitoring", "topologyId": {"$oid": "681c31970c4e1ad82847f672"}}  108
+2025-05-08 12:22:47 INFO MongoDB连接已关闭  87
+2025-05-08 12:22:47 INFO MongoDB 数据: 705  51
+2025-05-08 12:22:47 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:47 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:47 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:50 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzeaEwpxwC HTTP/1.1" 200 133  544
+2025-05-08 12:22:50 INFO MongoDB 数据写入成功: 705  54
+2025-05-08 12:22:50 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:50 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:50 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:51 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzeaEwpxwC HTTP/1.1" 200 131  544
+2025-05-08 12:22:51 INFO 用例ID：testcase/test_run1.py::test_modbus_and_mongodb[test_data9]  18
+2025-05-08 12:22:51 INFO 测试结果：passed  19
+2025-05-08 12:22:51 INFO 故障表示：None  20
+2025-05-08 12:22:51 INFO 异常：None  21
+2025-05-08 12:22:51 INFO 用例耗时：4.293386899997131  22
+2025-05-08 12:22:51 INFO **************************************  23
+2025-05-08 12:22:51 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 59156)  195
+2025-05-08 12:22:51 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x1 0x6 0x0 0x2a 0x50 0x78  91
+2025-05-08 12:22:51 DEBUG decoded PDU function_code(6 sub -1) -> WriteSingleRegisterResponse(dev_id=0, transaction_id=0, address=42, count=0, bits=[], registers=[20600], status=1)   113
+2025-05-08 12:22:51 DEBUG Frame advanced, resetting header!!  101
+2025-05-08 12:22:51 INFO Modbus 数据: None  42
+2025-05-08 12:22:51 DEBUG {"message": "Starting topology monitoring", "topologyId": {"$oid": "681c319b0c4e1ad82847f673"}}  108
+2025-05-08 12:22:51 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c319b0c4e1ad82847f673"}, "previousDescription": "<TopologyDescription id: 681c319b0c4e1ad82847f673, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 681c319b0c4e1ad82847f673, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:51 DEBUG {"message": "Starting server monitoring", "topologyId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:51 DEBUG {"message": "Connection pool created", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:51 DEBUG {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c319b0c4e1ad82847f673, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}}  108
+2025-05-08 12:22:51 DEBUG {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c319b0c4e1ad82847f673, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "remainingTimeMS": 29999}  108
+2025-05-08 12:22:51 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c319b0c4e1ad82847f673"}, "driverConnectionId": 1, "serverHost": "localhost", "serverPort": 27017, "awaited": false}  108
+2025-05-08 12:22:51 DEBUG {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "681c319b0c4e1ad82847f673"}, "driverConnectionId": 1, "serverConnectionId": 401, "serverHost": "localhost", "serverPort": 27017, "awaited": false, "durationMS": 0.8778999908827245, "reply": "{\"helloOk\": true, \"ismaster\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"681aaa5b33e2328645c6be7a\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime\": {\"$date\": \"2025-05-08T04:22:51.748Z\"}, \"logicalSessionTimeoutMinutes\": 30, \"connectionId\": 401, \"maxWireVersion\": 21, \"ok\": 1.0}"}  108
+2025-05-08 12:22:51 DEBUG {"message": "Connection pool ready", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:51 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c319b0c4e1ad82847f673"}, "previousDescription": "<TopologyDescription id: 681c319b0c4e1ad82847f673, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 681c319b0c4e1ad82847f673, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0008778999908827245>]>"}  108
+2025-05-08 12:22:51 DEBUG {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c319b0c4e1ad82847f673, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0008778999908827245>]>", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:51 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:51 DEBUG {"message": "Connection created", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:51 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c319b0c4e1ad82847f673"}, "driverConnectionId": 1, "serverConnectionId": 401, "serverHost": "localhost", "serverPort": 27017, "awaited": true}  108
+2025-05-08 12:22:51 DEBUG {"message": "Connection ready", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.00044290001096669585}  108
+2025-05-08 12:22:51 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.012088700008462183}  108
+2025-05-08 12:22:51 DEBUG {"message": "Command started", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "command": "{\"find\": \"RackDetail_TK4620417001-1\", \"sort\": {\"Getdatetime\": -1}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"Gop3VTHvR/avWK0K1f112A==\", \"subType\": \"04\"}}}, \"$db\": \"emsData_analyze\"}", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 21726, "operationId": 21726, "driverConnectionId": 1, "serverConnectionId": 402, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:52 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "durationMS": 275.078, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"681c319ba261201b7f3f7193\"}, \"SOC\": \"78.8\", \"SOH\": \"98.7\", \"BV\": \"44.4\", \"Bcc\": \"656\", \"Bcp\": \"5508\", \"BVMax\": \"0.029\", \"BVMin\": \"0.067\", \"BVAvg\": \"0.731\", \"BTMax\": \"0\", \"BTMin\": \"0\", \"BTAvg\": \"705\", \"DayInTotal\": \"0\", \"InTotal\": \"0\", \"DayOutTotal\": \"0\", \"OutTotal\": \"0\", \"MSocList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MSohList\": [\"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\"], \"MVList\": [\"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\"], \"McList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MtList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"McpList\": [\"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\"], \"MTMaxList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"MTMinList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", ...", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 21726, "operationId": 21726, "driverConnectionId": 1, "serverConnectionId": 402, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:52 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:52 DEBUG {"message": "Server selection started", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c319b0c4e1ad82847f673, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0008778999908827245>]>", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}}  108
+2025-05-08 12:22:52 DEBUG {"message": "Server selection succeeded", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c319b0c4e1ad82847f673, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0008778999908827245>]>", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:52 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:52 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 4.4200001866556704e-05}  108
+2025-05-08 12:22:52 DEBUG {"message": "Command started", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "command": "{\"endSessions\": [{\"id\": {\"$binary\": {\"base64\": \"Gop3VTHvR/avWK0K1f112A==\", \"subType\": \"04\"}}}], \"$db\": \"admin\"}", "commandName": "endSessions", "databaseName": "admin", "requestId": 14771, "operationId": 14771, "driverConnectionId": 1, "serverConnectionId": 402, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:52 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "durationMS": 0.313, "reply": "{\"ok\": 1.0}", "commandName": "endSessions", "databaseName": "admin", "requestId": 14771, "operationId": 14771, "driverConnectionId": 1, "serverConnectionId": 402, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:52 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:52 DEBUG {"message": "Stopped server monitoring", "topologyId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:52 DEBUG {"message": "Connection closed", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "Connection pool was closed", "error": "poolClosed"}  108
+2025-05-08 12:22:52 DEBUG {"message": "Connection pool closed", "clientId": {"$oid": "681c319b0c4e1ad82847f673"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:52 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c319b0c4e1ad82847f673"}, "previousDescription": "<TopologyDescription id: 681c319b0c4e1ad82847f673, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0008778999908827245>]>", "newDescription": "<TopologyDescription id: 681c319b0c4e1ad82847f673, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:52 DEBUG {"message": "Stopped topology monitoring", "topologyId": {"$oid": "681c319b0c4e1ad82847f673"}}  108
+2025-05-08 12:22:52 INFO MongoDB连接已关闭  87
+2025-05-08 12:22:52 INFO MongoDB 数据: 60.0  51
+2025-05-08 12:22:52 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:52 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:52 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:53 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzepeVo8sF HTTP/1.1" 200 134  544
+2025-05-08 12:22:53 INFO MongoDB 数据写入成功: 60.0  54
+2025-05-08 12:22:53 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:53 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:53 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:54 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzepeVo8sF HTTP/1.1" 200 131  544
+2025-05-08 12:22:54 INFO 用例ID：testcase/test_run1.py::test_modbus_and_mongodb[test_data10]  18
+2025-05-08 12:22:54 INFO 测试结果：failed  19
+2025-05-08 12:22:54 INFO 故障表示：test_data = {'Expected_result': '600.00', 'Mongomysqlresult': '60.0', 'Mysql/Mongo': 'allowInBcc', 'Title': '集群-允许最大充电电流', ...}
+
+    @pytest.mark.parametrize("test_data", test_data())
+    def test_modbus_and_mongodb(test_data):
+        # 测试逻辑
+        print(type(test_data))
+        ip = test_data.get("ip")
+        port = test_data.get("port")
+        address = int(test_data.get("address"))
+        count = test_data.get("count")
+        slave = test_data.get("slave")
+        function_code = test_data.get("function_code")
+        write_value = test_data.get("write_value")
+        datatype = test_data.get("datatype")
+        dataformat = test_data.get("dataformat")
+        query_params = test_data.get("query_params")
+        collection = test_data.get("collection")
+        expected_result = test_data.get("Expected_result")
+        record_id = test_data.get("record_id")
+    
+        try:
+            # 写入modbus数据
+            modbus_data = ProcessModbusData(ip, port, address, count, slave, function_code, write_value, datatype, dataformat).write_modbus_register()
+            modbus_logger.info(f"Modbus 数据: {modbus_data}")
+        except Exception as e:
+            modbus_logger.error(f"Modbus 数据写入失败: {e}")
+            pytest.fail("Modbus 数据写入失败")
+    
+        try:
+            # 获取mongodb数据
+            mg_data = ProcessMongodbData().get_mongodb_value(query_params, collection)
+            print(f"mg_data: {mg_data}")
+            db_logger.info(f"MongoDB 数据: {mg_data}")
+            # mongodb获取结果更新到飞书
+            feishu_test_case.updata_bitable_data(record_id, "Mongomysqlresult", mg_data)
+            db_logger.info(f"MongoDB 数据写入成功: {mg_data}")
+        except Exception as e:
+            db_logger.error(f"MongoDB 数据获取失败: {e}")
+            pytest.fail("MongoDB 数据获取失败")
+    
+        if float(expected_result) == float(mg_data):
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "成功")
+        else:
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "失败")
+    
+        print(f"expected_result: {expected_result}")
+>       assert float(mg_data) == float(expected_result)
+E       AssertionError: assert 60.0 == 600.0
+E        +  where 60.0 = float('60.0')
+E        +  and   600.0 = float('600.00')
+
+test_run1.py:65: AssertionError  20
+2025-05-08 12:22:54 INFO 异常：<ExceptionInfo AssertionError("assert 60.0 == 600.0\n +  where 60.0 = float('60.0')\n +  and   600.0 = float('600.00')") tblen=27>  21
+2025-05-08 12:22:54 INFO 用例耗时：2.2686032999918098  22
+2025-05-08 12:22:54 INFO **************************************  23
+2025-05-08 12:22:54 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 59166)  195
+2025-05-08 12:22:54 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x1 0x6 0x0 0x2b 0x51 0x8e  91
+2025-05-08 12:22:54 DEBUG decoded PDU function_code(6 sub -1) -> WriteSingleRegisterResponse(dev_id=0, transaction_id=0, address=43, count=0, bits=[], registers=[20878], status=1)   113
+2025-05-08 12:22:54 DEBUG Frame advanced, resetting header!!  101
+2025-05-08 12:22:54 INFO Modbus 数据: None  42
+2025-05-08 12:22:54 DEBUG {"message": "Starting topology monitoring", "topologyId": {"$oid": "681c319e0c4e1ad82847f674"}}  108
+2025-05-08 12:22:54 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c319e0c4e1ad82847f674"}, "previousDescription": "<TopologyDescription id: 681c319e0c4e1ad82847f674, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 681c319e0c4e1ad82847f674, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:54 DEBUG {"message": "Starting server monitoring", "topologyId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:54 DEBUG {"message": "Connection pool created", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:54 DEBUG {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c319e0c4e1ad82847f674, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}}  108
+2025-05-08 12:22:54 DEBUG {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c319e0c4e1ad82847f674, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "remainingTimeMS": 29999}  108
+2025-05-08 12:22:54 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c319e0c4e1ad82847f674"}, "driverConnectionId": 1, "serverHost": "localhost", "serverPort": 27017, "awaited": false}  108
+2025-05-08 12:22:54 DEBUG {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "681c319e0c4e1ad82847f674"}, "driverConnectionId": 1, "serverConnectionId": 404, "serverHost": "localhost", "serverPort": 27017, "awaited": false, "durationMS": 0.46290000318549573, "reply": "{\"helloOk\": true, \"ismaster\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"681aaa5b33e2328645c6be7a\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime\": {\"$date\": \"2025-05-08T04:22:54.034Z\"}, \"logicalSessionTimeoutMinutes\": 30, \"connectionId\": 404, \"maxWireVersion\": 21, \"ok\": 1.0}"}  108
+2025-05-08 12:22:54 DEBUG {"message": "Connection pool ready", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:54 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c319e0c4e1ad82847f674"}, "previousDescription": "<TopologyDescription id: 681c319e0c4e1ad82847f674, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 681c319e0c4e1ad82847f674, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.00046290000318549573>]>"}  108
+2025-05-08 12:22:54 DEBUG {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c319e0c4e1ad82847f674, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.00046290000318549573>]>", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:54 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:54 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c319e0c4e1ad82847f674"}, "driverConnectionId": 1, "serverConnectionId": 404, "serverHost": "localhost", "serverPort": 27017, "awaited": true}  108
+2025-05-08 12:22:54 DEBUG {"message": "Connection created", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:54 DEBUG {"message": "Connection ready", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.000574999998207204}  108
+2025-05-08 12:22:54 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0015734000044176355}  108
+2025-05-08 12:22:54 DEBUG {"message": "Command started", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "command": "{\"find\": \"RackDetail_TK4620417001-1\", \"sort\": {\"Getdatetime\": -1}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"Jch/EH/tSD63yHLHOZO8Vw==\", \"subType\": \"04\"}}}, \"$db\": \"emsData_analyze\"}", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 1869, "operationId": 1869, "driverConnectionId": 1, "serverConnectionId": 406, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:54 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "durationMS": 231.785, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"681c319da261201b7f3f7197\"}, \"SOC\": \"78.8\", \"SOH\": \"98.7\", \"BV\": \"44.4\", \"Bcc\": \"656\", \"Bcp\": \"5508\", \"BVMax\": \"0.029\", \"BVMin\": \"0.067\", \"BVAvg\": \"0.731\", \"BTMax\": \"0\", \"BTMin\": \"0\", \"BTAvg\": \"705\", \"DayInTotal\": \"0\", \"InTotal\": \"0\", \"DayOutTotal\": \"0\", \"OutTotal\": \"0\", \"MSocList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MSohList\": [\"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\"], \"MVList\": [\"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\"], \"McList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MtList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"McpList\": [\"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\"], \"MTMaxList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"MTMinList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", ...", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 1869, "operationId": 1869, "driverConnectionId": 1, "serverConnectionId": 406, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:54 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:54 DEBUG {"message": "Server selection started", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c319e0c4e1ad82847f674, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.00046290000318549573>]>", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}}  108
+2025-05-08 12:22:54 DEBUG {"message": "Server selection succeeded", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c319e0c4e1ad82847f674, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.00046290000318549573>]>", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:54 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:54 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 3.8700003642588854e-05}  108
+2025-05-08 12:22:54 DEBUG {"message": "Command started", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "command": "{\"endSessions\": [{\"id\": {\"$binary\": {\"base64\": \"Jch/EH/tSD63yHLHOZO8Vw==\", \"subType\": \"04\"}}}], \"$db\": \"admin\"}", "commandName": "endSessions", "databaseName": "admin", "requestId": 19912, "operationId": 19912, "driverConnectionId": 1, "serverConnectionId": 406, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:54 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "durationMS": 0.27599999999999997, "reply": "{\"ok\": 1.0}", "commandName": "endSessions", "databaseName": "admin", "requestId": 19912, "operationId": 19912, "driverConnectionId": 1, "serverConnectionId": 406, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:54 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:54 DEBUG {"message": "Stopped server monitoring", "topologyId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:54 DEBUG {"message": "Connection closed", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "Connection pool was closed", "error": "poolClosed"}  108
+2025-05-08 12:22:54 DEBUG {"message": "Connection pool closed", "clientId": {"$oid": "681c319e0c4e1ad82847f674"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:54 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c319e0c4e1ad82847f674"}, "previousDescription": "<TopologyDescription id: 681c319e0c4e1ad82847f674, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.00046290000318549573>]>", "newDescription": "<TopologyDescription id: 681c319e0c4e1ad82847f674, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:54 DEBUG {"message": "Stopped topology monitoring", "topologyId": {"$oid": "681c319e0c4e1ad82847f674"}}  108
+2025-05-08 12:22:54 INFO MongoDB连接已关闭  87
+2025-05-08 12:22:54 INFO MongoDB 数据: 87.8  51
+2025-05-08 12:22:54 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:54 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:54 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:55 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzhAZtQymi HTTP/1.1" 200 134  544
+2025-05-08 12:22:55 INFO MongoDB 数据写入成功: 87.8  54
+2025-05-08 12:22:55 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:55 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:55 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:56 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzhAZtQymi HTTP/1.1" 200 131  544
+2025-05-08 12:22:56 INFO 用例ID：testcase/test_run1.py::test_modbus_and_mongodb[test_data11]  18
+2025-05-08 12:22:56 INFO 测试结果：failed  19
+2025-05-08 12:22:56 INFO 故障表示：test_data = {'Expected_result': '878.00', 'Mongomysqlresult': '87.8', 'Mysql/Mongo': 'allowOutBcc', 'Title': '集群-允许最大放电电流', ...}
+
+    @pytest.mark.parametrize("test_data", test_data())
+    def test_modbus_and_mongodb(test_data):
+        # 测试逻辑
+        print(type(test_data))
+        ip = test_data.get("ip")
+        port = test_data.get("port")
+        address = int(test_data.get("address"))
+        count = test_data.get("count")
+        slave = test_data.get("slave")
+        function_code = test_data.get("function_code")
+        write_value = test_data.get("write_value")
+        datatype = test_data.get("datatype")
+        dataformat = test_data.get("dataformat")
+        query_params = test_data.get("query_params")
+        collection = test_data.get("collection")
+        expected_result = test_data.get("Expected_result")
+        record_id = test_data.get("record_id")
+    
+        try:
+            # 写入modbus数据
+            modbus_data = ProcessModbusData(ip, port, address, count, slave, function_code, write_value, datatype, dataformat).write_modbus_register()
+            modbus_logger.info(f"Modbus 数据: {modbus_data}")
+        except Exception as e:
+            modbus_logger.error(f"Modbus 数据写入失败: {e}")
+            pytest.fail("Modbus 数据写入失败")
+    
+        try:
+            # 获取mongodb数据
+            mg_data = ProcessMongodbData().get_mongodb_value(query_params, collection)
+            print(f"mg_data: {mg_data}")
+            db_logger.info(f"MongoDB 数据: {mg_data}")
+            # mongodb获取结果更新到飞书
+            feishu_test_case.updata_bitable_data(record_id, "Mongomysqlresult", mg_data)
+            db_logger.info(f"MongoDB 数据写入成功: {mg_data}")
+        except Exception as e:
+            db_logger.error(f"MongoDB 数据获取失败: {e}")
+            pytest.fail("MongoDB 数据获取失败")
+    
+        if float(expected_result) == float(mg_data):
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "成功")
+        else:
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "失败")
+    
+        print(f"expected_result: {expected_result}")
+>       assert float(mg_data) == float(expected_result)
+E       AssertionError: assert 87.8 == 878.0
+E        +  where 87.8 = float('87.8')
+E        +  and   878.0 = float('878.00')
+
+test_run1.py:65: AssertionError  20
+2025-05-08 12:22:56 INFO 异常：<ExceptionInfo AssertionError("assert 87.8 == 878.0\n +  where 87.8 = float('87.8')\n +  and   878.0 = float('878.00')") tblen=27>  21
+2025-05-08 12:22:56 INFO 用例耗时：2.459388500006753  22
+2025-05-08 12:22:56 INFO **************************************  23
+2025-05-08 12:22:56 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 59176)  195
+2025-05-08 12:22:56 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x1 0x6 0x0 0x2d 0x51 0x99  91
+2025-05-08 12:22:56 DEBUG decoded PDU function_code(6 sub -1) -> WriteSingleRegisterResponse(dev_id=0, transaction_id=0, address=45, count=0, bits=[], registers=[20889], status=1)   113
+2025-05-08 12:22:56 DEBUG Frame advanced, resetting header!!  101
+2025-05-08 12:22:56 INFO Modbus 数据: None  42
+2025-05-08 12:22:56 DEBUG {"message": "Starting topology monitoring", "topologyId": {"$oid": "681c31a00c4e1ad82847f675"}}  108
+2025-05-08 12:22:56 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31a00c4e1ad82847f675"}, "previousDescription": "<TopologyDescription id: 681c31a00c4e1ad82847f675, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 681c31a00c4e1ad82847f675, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:56 DEBUG {"message": "Starting server monitoring", "topologyId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:56 DEBUG {"message": "Connection pool created", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:56 DEBUG {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31a00c4e1ad82847f675, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}}  108
+2025-05-08 12:22:56 DEBUG {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31a00c4e1ad82847f675, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "remainingTimeMS": 29999}  108
+2025-05-08 12:22:56 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31a00c4e1ad82847f675"}, "driverConnectionId": 1, "serverHost": "localhost", "serverPort": 27017, "awaited": false}  108
+2025-05-08 12:22:56 DEBUG {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "681c31a00c4e1ad82847f675"}, "driverConnectionId": 1, "serverConnectionId": 407, "serverHost": "localhost", "serverPort": 27017, "awaited": false, "durationMS": 0.9251000010408461, "reply": "{\"helloOk\": true, \"ismaster\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"681aaa5b33e2328645c6be7a\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime\": {\"$date\": \"2025-05-08T04:22:56.489Z\"}, \"logicalSessionTimeoutMinutes\": 30, \"connectionId\": 407, \"maxWireVersion\": 21, \"ok\": 1.0}"}  108
+2025-05-08 12:22:56 DEBUG {"message": "Connection pool ready", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:56 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31a00c4e1ad82847f675"}, "previousDescription": "<TopologyDescription id: 681c31a00c4e1ad82847f675, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 681c31a00c4e1ad82847f675, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0009251000010408461>]>"}  108
+2025-05-08 12:22:56 DEBUG {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31a00c4e1ad82847f675, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0009251000010408461>]>", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:56 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:56 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31a00c4e1ad82847f675"}, "driverConnectionId": 1, "serverConnectionId": 407, "serverHost": "localhost", "serverPort": 27017, "awaited": true}  108
+2025-05-08 12:22:56 DEBUG {"message": "Connection created", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:56 DEBUG {"message": "Connection ready", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0009348000021418557}  108
+2025-05-08 12:22:56 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0017841000080807135}  108
+2025-05-08 12:22:56 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "command": "{\"find\": \"RackDetail_TK4620417001-1\", \"sort\": {\"Getdatetime\": -1}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"8HF8pbTcRWOsUsWscu7uXw==\", \"subType\": \"04\"}}}, \"$db\": \"emsData_analyze\"}", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 26299, "operationId": 26299, "driverConnectionId": 1, "serverConnectionId": 409, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:56 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "durationMS": 199.886, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"681c319fa261201b7f3f719d\"}, \"SOC\": \"78.8\", \"SOH\": \"98.7\", \"BV\": \"44.4\", \"Bcc\": \"656\", \"Bcp\": \"5508\", \"BVMax\": \"0.029\", \"BVMin\": \"0.067\", \"BVAvg\": \"0.731\", \"BTMax\": \"0\", \"BTMin\": \"0\", \"BTAvg\": \"705\", \"DayInTotal\": \"0\", \"InTotal\": \"0\", \"DayOutTotal\": \"0\", \"OutTotal\": \"0\", \"MSocList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MSohList\": [\"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\"], \"MVList\": [\"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\"], \"McList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MtList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"McpList\": [\"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\"], \"MTMaxList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"MTMinList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", ...", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 26299, "operationId": 26299, "driverConnectionId": 1, "serverConnectionId": 409, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:56 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:56 DEBUG {"message": "Server selection started", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31a00c4e1ad82847f675, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0009251000010408461>]>", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}}  108
+2025-05-08 12:22:56 DEBUG {"message": "Server selection succeeded", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31a00c4e1ad82847f675, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0009251000010408461>]>", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:56 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:56 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 3.959999594371766e-05}  108
+2025-05-08 12:22:56 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "command": "{\"endSessions\": [{\"id\": {\"$binary\": {\"base64\": \"8HF8pbTcRWOsUsWscu7uXw==\", \"subType\": \"04\"}}}], \"$db\": \"admin\"}", "commandName": "endSessions", "databaseName": "admin", "requestId": 17035, "operationId": 17035, "driverConnectionId": 1, "serverConnectionId": 409, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:56 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "durationMS": 0.289, "reply": "{\"ok\": 1.0}", "commandName": "endSessions", "databaseName": "admin", "requestId": 17035, "operationId": 17035, "driverConnectionId": 1, "serverConnectionId": 409, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:56 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:56 DEBUG {"message": "Stopped server monitoring", "topologyId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:56 DEBUG {"message": "Connection closed", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "Connection pool was closed", "error": "poolClosed"}  108
+2025-05-08 12:22:56 DEBUG {"message": "Connection pool closed", "clientId": {"$oid": "681c31a00c4e1ad82847f675"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:56 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31a00c4e1ad82847f675"}, "previousDescription": "<TopologyDescription id: 681c31a00c4e1ad82847f675, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0009251000010408461>]>", "newDescription": "<TopologyDescription id: 681c31a00c4e1ad82847f675, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:56 DEBUG {"message": "Stopped topology monitoring", "topologyId": {"$oid": "681c31a00c4e1ad82847f675"}}  108
+2025-05-08 12:22:56 INFO MongoDB连接已关闭  87
+2025-05-08 12:22:56 INFO MongoDB 数据: 0.0  51
+2025-05-08 12:22:56 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:56 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:56 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:57 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzhCRlvYNh HTTP/1.1" 200 133  544
+2025-05-08 12:22:57 INFO MongoDB 数据写入成功: 0.0  54
+2025-05-08 12:22:57 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:57 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:57 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:58 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzhCRlvYNh HTTP/1.1" 200 131  544
+2025-05-08 12:22:58 INFO 用例ID：testcase/test_run1.py::test_modbus_and_mongodb[test_data12]  18
+2025-05-08 12:22:58 INFO 测试结果：failed  19
+2025-05-08 12:22:58 INFO 故障表示：test_data = {'Expected_result': '88.90', 'Mongomysqlresult': '0.0', 'Mysql/Mongo': 'allowInBcp', 'Title': '集群-允许最大充电功率', ...}
+
+    @pytest.mark.parametrize("test_data", test_data())
+    def test_modbus_and_mongodb(test_data):
+        # 测试逻辑
+        print(type(test_data))
+        ip = test_data.get("ip")
+        port = test_data.get("port")
+        address = int(test_data.get("address"))
+        count = test_data.get("count")
+        slave = test_data.get("slave")
+        function_code = test_data.get("function_code")
+        write_value = test_data.get("write_value")
+        datatype = test_data.get("datatype")
+        dataformat = test_data.get("dataformat")
+        query_params = test_data.get("query_params")
+        collection = test_data.get("collection")
+        expected_result = test_data.get("Expected_result")
+        record_id = test_data.get("record_id")
+    
+        try:
+            # 写入modbus数据
+            modbus_data = ProcessModbusData(ip, port, address, count, slave, function_code, write_value, datatype, dataformat).write_modbus_register()
+            modbus_logger.info(f"Modbus 数据: {modbus_data}")
+        except Exception as e:
+            modbus_logger.error(f"Modbus 数据写入失败: {e}")
+            pytest.fail("Modbus 数据写入失败")
+    
+        try:
+            # 获取mongodb数据
+            mg_data = ProcessMongodbData().get_mongodb_value(query_params, collection)
+            print(f"mg_data: {mg_data}")
+            db_logger.info(f"MongoDB 数据: {mg_data}")
+            # mongodb获取结果更新到飞书
+            feishu_test_case.updata_bitable_data(record_id, "Mongomysqlresult", mg_data)
+            db_logger.info(f"MongoDB 数据写入成功: {mg_data}")
+        except Exception as e:
+            db_logger.error(f"MongoDB 数据获取失败: {e}")
+            pytest.fail("MongoDB 数据获取失败")
+    
+        if float(expected_result) == float(mg_data):
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "成功")
+        else:
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "失败")
+    
+        print(f"expected_result: {expected_result}")
+>       assert float(mg_data) == float(expected_result)
+E       AssertionError: assert 0.0 == 88.9
+E        +  where 0.0 = float('0.0')
+E        +  and   88.9 = float('88.90')
+
+test_run1.py:65: AssertionError  20
+2025-05-08 12:22:58 INFO 异常：<ExceptionInfo AssertionError("assert 0.0 == 88.9\n +  where 0.0 = float('0.0')\n +  and   88.9 = float('88.90')") tblen=27>  21
+2025-05-08 12:22:58 INFO 用例耗时：2.2266749999980675  22
+2025-05-08 12:22:58 INFO **************************************  23
+2025-05-08 12:22:58 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 59188)  195
+2025-05-08 12:22:58 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x6 0x1 0x6 0x0 0x2e 0x63 0xa4  91
+2025-05-08 12:22:58 DEBUG decoded PDU function_code(6 sub -1) -> WriteSingleRegisterResponse(dev_id=0, transaction_id=0, address=46, count=0, bits=[], registers=[25508], status=1)   113
+2025-05-08 12:22:58 DEBUG Frame advanced, resetting header!!  101
+2025-05-08 12:22:58 INFO Modbus 数据: None  42
+2025-05-08 12:22:58 DEBUG {"message": "Starting topology monitoring", "topologyId": {"$oid": "681c31a20c4e1ad82847f676"}}  108
+2025-05-08 12:22:58 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31a20c4e1ad82847f676"}, "previousDescription": "<TopologyDescription id: 681c31a20c4e1ad82847f676, topology_type: Unknown, servers: []>", "newDescription": "<TopologyDescription id: 681c31a20c4e1ad82847f676, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:58 DEBUG {"message": "Starting server monitoring", "topologyId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:58 DEBUG {"message": "Connection pool created", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:58 DEBUG {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31a20c4e1ad82847f676, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}}  108
+2025-05-08 12:22:58 DEBUG {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31a20c4e1ad82847f676, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "remainingTimeMS": 29999}  108
+2025-05-08 12:22:58 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31a20c4e1ad82847f676"}, "driverConnectionId": 1, "serverHost": "localhost", "serverPort": 27017, "awaited": false}  108
+2025-05-08 12:22:58 DEBUG {"message": "Server heartbeat succeeded", "topologyId": {"$oid": "681c31a20c4e1ad82847f676"}, "driverConnectionId": 1, "serverConnectionId": 410, "serverHost": "localhost", "serverPort": 27017, "awaited": false, "durationMS": 1.3803000038024038, "reply": "{\"helloOk\": true, \"ismaster\": true, \"topologyVersion\": {\"processId\": {\"$oid\": \"681aaa5b33e2328645c6be7a\"}}, \"maxBsonObjectSize\": 16777216, \"maxMessageSizeBytes\": 48000000, \"maxWriteBatchSize\": 100000, \"localTime\": {\"$date\": \"2025-05-08T04:22:58.723Z\"}, \"logicalSessionTimeoutMinutes\": 30, \"connectionId\": 410, \"maxWireVersion\": 21, \"ok\": 1.0}"}  108
+2025-05-08 12:22:58 DEBUG {"message": "Connection pool ready", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:58 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31a20c4e1ad82847f676"}, "previousDescription": "<TopologyDescription id: 681c31a20c4e1ad82847f676, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>", "newDescription": "<TopologyDescription id: 681c31a20c4e1ad82847f676, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0013803000038024038>]>"}  108
+2025-05-08 12:22:58 DEBUG {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 681c31a20c4e1ad82847f676, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0013803000038024038>]>", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:58 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:58 DEBUG {"message": "Server heartbeat started", "topologyId": {"$oid": "681c31a20c4e1ad82847f676"}, "driverConnectionId": 1, "serverConnectionId": 410, "serverHost": "localhost", "serverPort": 27017, "awaited": true}  108
+2025-05-08 12:22:58 DEBUG {"message": "Connection created", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:58 DEBUG {"message": "Connection ready", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0007212999917101115}  108
+2025-05-08 12:22:58 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 0.0015454999957000837}  108
+2025-05-08 12:22:58 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "command": "{\"find\": \"RackDetail_TK4620417001-1\", \"sort\": {\"Getdatetime\": -1}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"gxQQTjJFT5GUZmrP8o3LyQ==\", \"subType\": \"04\"}}}, \"$db\": \"emsData_analyze\"}", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 28703, "operationId": 28703, "driverConnectionId": 1, "serverConnectionId": 412, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:58 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "durationMS": 216.25, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"681c31a1a261201b7f3f71a3\"}, \"SOC\": \"78.8\", \"SOH\": \"98.7\", \"BV\": \"44.4\", \"Bcc\": \"656\", \"Bcp\": \"5508\", \"BVMax\": \"0.029\", \"BVMin\": \"0.067\", \"BVAvg\": \"0.731\", \"BTMax\": \"0\", \"BTMin\": \"0\", \"BTAvg\": \"705\", \"DayInTotal\": \"0\", \"InTotal\": \"0\", \"DayOutTotal\": \"0\", \"OutTotal\": \"0\", \"MSocList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MSohList\": [\"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\", \"100.0\"], \"MVList\": [\"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\", \"864.0\"], \"McList\": [\"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\", \"0.0\"], \"MtList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"McpList\": [\"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\", \"0.000\"], \"MTMaxList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\"], \"MTMinList\": [\"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", \"26\", ...", "commandName": "find", "databaseName": "emsData_analyze", "requestId": 28703, "operationId": 28703, "driverConnectionId": 1, "serverConnectionId": 412, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:58 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:58 DEBUG {"message": "Server selection started", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31a20c4e1ad82847f676, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0013803000038024038>]>", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}}  108
+2025-05-08 12:22:58 DEBUG {"message": "Server selection succeeded", "selector": "PrimaryPreferred(tag_sets=None, max_staleness=-1, hedge=None)", "operation": "endSessions", "topologyDescription": "<TopologyDescription id: 681c31a20c4e1ad82847f676, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0013803000038024038>]>", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:58 DEBUG {"message": "Connection checkout started", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:58 DEBUG {"message": "Connection checked out", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "durationMS": 4.289999196771532e-05}  108
+2025-05-08 12:22:58 DEBUG {"message": "Command started", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "command": "{\"endSessions\": [{\"id\": {\"$binary\": {\"base64\": \"gxQQTjJFT5GUZmrP8o3LyQ==\", \"subType\": \"04\"}}}], \"$db\": \"admin\"}", "commandName": "endSessions", "databaseName": "admin", "requestId": 23811, "operationId": 23811, "driverConnectionId": 1, "serverConnectionId": 412, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:58 DEBUG {"message": "Command succeeded", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "durationMS": 0.29300000000000004, "reply": "{\"ok\": 1.0}", "commandName": "endSessions", "databaseName": "admin", "requestId": 23811, "operationId": 23811, "driverConnectionId": 1, "serverConnectionId": 412, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:58 DEBUG {"message": "Connection checked in", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}  108
+2025-05-08 12:22:58 DEBUG {"message": "Stopped server monitoring", "topologyId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:58 DEBUG {"message": "Connection closed", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "Connection pool was closed", "error": "poolClosed"}  108
+2025-05-08 12:22:58 DEBUG {"message": "Connection pool closed", "clientId": {"$oid": "681c31a20c4e1ad82847f676"}, "serverHost": "localhost", "serverPort": 27017}  108
+2025-05-08 12:22:58 DEBUG {"message": "Topology description changed", "topologyId": {"$oid": "681c31a20c4e1ad82847f676"}, "previousDescription": "<TopologyDescription id: 681c31a20c4e1ad82847f676, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.0013803000038024038>]>", "newDescription": "<TopologyDescription id: 681c31a20c4e1ad82847f676, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None>]>"}  108
+2025-05-08 12:22:58 DEBUG {"message": "Stopped topology monitoring", "topologyId": {"$oid": "681c31a20c4e1ad82847f676"}}  108
+2025-05-08 12:22:58 INFO MongoDB连接已关闭  87
+2025-05-08 12:22:58 INFO MongoDB 数据: 88.9  51
+2025-05-08 12:22:58 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:59 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:22:59 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:22:59 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzhDqxqyrs HTTP/1.1" 200 134  544
+2025-05-08 12:22:59 INFO MongoDB 数据写入成功: 88.9  54
+2025-05-08 12:22:59 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:23:00 DEBUG https://open.feishu.cn:443 "POST /open-apis/auth/v3/tenant_access_token/internal HTTP/1.1" 200 102  544
+2025-05-08 12:23:00 DEBUG Starting new HTTPS connection (1): open.feishu.cn:443  1049
+2025-05-08 12:23:01 DEBUG https://open.feishu.cn:443 "PUT /open-apis/bitable/v1/apps/YLnMbpF04adU1es17Psc9fGgn4g/tables/tblK5e7kvbMprrws/records/recuKzhDqxqyrs HTTP/1.1" 200 131  544
+2025-05-08 12:23:01 INFO 用例ID：testcase/test_run1.py::test_modbus_and_mongodb[test_data13]  18
+2025-05-08 12:23:01 INFO 测试结果：failed  19
+2025-05-08 12:23:01 INFO 故障表示：test_data = {'Expected_result': '550.80', 'Mongomysqlresult': '88.9', 'Mysql/Mongo': 'allowOutBcp', 'Title': '集群-允许最大放电功率', ...}
+
+    @pytest.mark.parametrize("test_data", test_data())
+    def test_modbus_and_mongodb(test_data):
+        # 测试逻辑
+        print(type(test_data))
+        ip = test_data.get("ip")
+        port = test_data.get("port")
+        address = int(test_data.get("address"))
+        count = test_data.get("count")
+        slave = test_data.get("slave")
+        function_code = test_data.get("function_code")
+        write_value = test_data.get("write_value")
+        datatype = test_data.get("datatype")
+        dataformat = test_data.get("dataformat")
+        query_params = test_data.get("query_params")
+        collection = test_data.get("collection")
+        expected_result = test_data.get("Expected_result")
+        record_id = test_data.get("record_id")
+    
+        try:
+            # 写入modbus数据
+            modbus_data = ProcessModbusData(ip, port, address, count, slave, function_code, write_value, datatype, dataformat).write_modbus_register()
+            modbus_logger.info(f"Modbus 数据: {modbus_data}")
+        except Exception as e:
+            modbus_logger.error(f"Modbus 数据写入失败: {e}")
+            pytest.fail("Modbus 数据写入失败")
+    
+        try:
+            # 获取mongodb数据
+            mg_data = ProcessMongodbData().get_mongodb_value(query_params, collection)
+            print(f"mg_data: {mg_data}")
+            db_logger.info(f"MongoDB 数据: {mg_data}")
+            # mongodb获取结果更新到飞书
+            feishu_test_case.updata_bitable_data(record_id, "Mongomysqlresult", mg_data)
+            db_logger.info(f"MongoDB 数据写入成功: {mg_data}")
+        except Exception as e:
+            db_logger.error(f"MongoDB 数据获取失败: {e}")
+            pytest.fail("MongoDB 数据获取失败")
+    
+        if float(expected_result) == float(mg_data):
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "成功")
+        else:
+            feishu_test_case.updata_bitable_data(record_id, "checkResult", "失败")
+    
+        print(f"expected_result: {expected_result}")
+>       assert float(mg_data) == float(expected_result)
+E       AssertionError: assert 88.9 == 550.8
+E        +  where 88.9 = float('88.9')
+E        +  and   550.8 = float('550.80')
+
+test_run1.py:65: AssertionError  20
+2025-05-08 12:23:01 INFO 异常：<ExceptionInfo AssertionError("assert 88.9 == 550.8\n +  where 88.9 = float('88.9')\n +  and   550.8 = float('550.80')") tblen=27>  21
+2025-05-08 12:23:01 INFO 用例耗时：2.3309821000002557  22
+2025-05-08 12:23:01 INFO **************************************  23

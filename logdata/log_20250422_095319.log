@@ -1,0 +1,1151 @@
+2025-04-22 09:53:19 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 63234)  195
+2025-04-22 09:53:19 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:19 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:19 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:19 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:19 INFO 开始执行测试用例: 调试单寄存器[函数02]  128
+2025-04-22 09:53:19 DEBUG 开始数据库操作  55
+2025-04-22 09:53:19 ERROR 数据库操作异常  81
+Traceback (most recent call last):
+  File "D:\PycharmProjects\TaokeEms\testcase\test_run.py", line 74, in __mysql_mongodb_extraction
+    sql = eval(CaseData["sqlExData"]).strip()
+          ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1
+    {SELECT GridPac FROM PcsDetail_TK4620306001-9 ORDER BY getdatetime DESC LIMIT 1}
+     ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2025-04-22 09:53:19 DEBUG Modbus连接参数: {'ip': '127.0.0.1', 'port': 1234, 'address': 1, 'count': 1, 'slave': 1, 'function_code': 2, 'datatype': 0, 'dataformat': 0}  100
+2025-04-22 09:53:19 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 63238)  195
+2025-04-22 09:53:19 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x5 0x1 0x4 0x2 0x0 0x0  91
+2025-04-22 09:53:19 DEBUG decoded PDU function_code(4 sub -1) -> ReadInputRegistersResponse(dev_id=0, transaction_id=0, address=0, count=0, bits=[], registers=[0], status=1)   113
+2025-04-22 09:53:19 DEBUG Frame advanced, resetting header!!  101
+2025-04-22 09:53:19 DEBUG Processing: 0x0 0x2 0x0 0x0 0x0 0x4 0x1 0x2 0x1 0x0  91
+2025-04-22 09:53:19 DEBUG decoded PDU function_code(2 sub -1) -> ReadDiscreteInputsResponse(dev_id=0, transaction_id=0, address=0, count=0, bits=[False, False, False, False, False, False, False, False], registers=[], status=1)   113
+2025-04-22 09:53:19 DEBUG Frame advanced, resetting header!!  101
+2025-04-22 09:53:19 INFO 原始值: False → 计算值: -1.0  117
+2025-04-22 09:53:19 DEBUG 数据库查询结果: 语法错误: invalid syntax. Perhaps you forgot a comma? (<string>, line 1)  151
+2025-04-22 09:53:19 DEBUG Modbus提取结果: -1.0  152
+2025-04-22 09:53:19 INFO 用例ID：testcase/test_run.py::TestCase::test_001[CaseData0]  17
+2025-04-22 09:53:19 INFO 测试结果：passed  18
+2025-04-22 09:53:19 INFO 故障表示：None  19
+2025-04-22 09:53:19 INFO 异常：None  20
+2025-04-22 09:53:19 INFO 用例耗时：0.09993029999895953  21
+2025-04-22 09:53:19 INFO **************************************  22
+2025-04-22 09:53:19 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 63254)  195
+2025-04-22 09:53:19 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:19 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:19 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:19 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:19 INFO 开始执行测试用例: 调试单寄存器[函数03]  128
+2025-04-22 09:53:19 DEBUG 开始数据库操作  55
+2025-04-22 09:53:19 DEBUG Modbus连接参数: {'ip': '127.0.0.1', 'port': 1234, 'address': 11, 'count': 1, 'slave': 1, 'function_code': 3, 'datatype': 0, 'dataformat': 0}  100
+2025-04-22 09:53:19 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 63258)  195
+2025-04-22 09:53:19 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x3 0x1 0x84 0x2  91
+2025-04-22 09:53:19 ERROR Exception response 132 / 0  128
+2025-04-22 09:53:19 DEBUG Frame advanced, resetting header!!  101
+2025-04-22 09:53:19 DEBUG Processing: 0x0 0x2 0x0 0x0 0x0 0x3 0x1 0x83 0x2  91
+2025-04-22 09:53:19 ERROR Exception response 131 / 0  128
+2025-04-22 09:53:19 DEBUG Frame advanced, resetting header!!  101
+2025-04-22 09:53:19 ERROR Modbus错误: ExceptionResponse(dev_id=1, transaction_id=2, address=0, count=0, bits=[], registers=[], status=1)  61
+2025-04-22 09:53:19 ERROR Modbus处理异常  121
+Traceback (most recent call last):
+  File "D:\PycharmProjects\TaokeEms\testcase\test_run.py", line 109, in __modbus_processing
+    raise ValueError("Modbus读取失败")
+ValueError: Modbus读取失败
+2025-04-22 09:53:19 CRITICAL 用例执行失败  185
+Traceback (most recent call last):
+  File "D:\PycharmProjects\TaokeEms\testcase\test_run.py", line 145, in test_001
+    modbus_result = self.__modbus_processing(CaseData)
+  File "D:\PycharmProjects\TaokeEms\testcase\test_run.py", line 122, in __modbus_processing
+    raise e
+  File "D:\PycharmProjects\TaokeEms\testcase\test_run.py", line 109, in __modbus_processing
+    raise ValueError("Modbus读取失败")
+ValueError: Modbus读取失败
+2025-04-22 09:53:19 INFO 用例ID：testcase/test_run.py::TestCase::test_001[CaseData1]  17
+2025-04-22 09:53:19 INFO 测试结果：failed  18
+2025-04-22 09:53:19 INFO 故障表示：self = <test_run.TestCase object at 0x000002ACB62D6D50>, CaseData = {'id': 4, 'devicetype': 'Pcs', 'Title': '调试单寄存器[函数03]', 'ip': '127.0.0.1', ...}
+modbus_client = {('127.0.0.1', 1234): <ModbusTcpClient at 0x2acb631f8a0 socket=<socket.socket fd=300, family=2, type=1, proto=0, laddr=('127.0.0.1', 63254), raddr=('127.0.0.1', 1234)>, ipaddr=127.0.0.1, port=1234, timeout=3>}
+
+    @pytest.mark.parametrize("CaseData", AllCaseData)
+    def test_001(self, CaseData,modbus_client):
+        logging.info(f"开始执行测试用例: {CaseData['Title']}")
+        # self.dynamic_title(CaseData)
+        # 写入结果配置
+        row = CaseData["id"]
+        DB_RESULT_COL = 20
+        MODBUS_RESULT_COL = 15
+    
+        try:
+            #数据库结果处理
+            db_result = self.__mysql_mongodb_extraction(CaseData)
+            FileDataDriver.writeDataToExcel(
+                row = row,
+                column = DB_RESULT_COL,
+                value = str(db_result)[:255] #限制写入字符长度
+            )
+    
+            # Modbus数据处理
+>           modbus_result = self.__modbus_processing(CaseData)
+
+testcase\test_run.py:145: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+testcase\test_run.py:122: in __modbus_processing
+    raise e
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <test_run.TestCase object at 0x000002ACB62D6D50>, CaseData = {'id': 4, 'devicetype': 'Pcs', 'Title': '调试单寄存器[函数03]', 'ip': '127.0.0.1', ...}
+
+    def __modbus_processing(self, CaseData) -> float:
+        """Modbus数据处理与计算"""
+        try:
+            # 从Excel用例获取Modbus参数
+            modbus_params = {
+                'ip': CaseData['ip'],
+                'port': CaseData['port'],
+                'address': CaseData['address'],
+                'count': CaseData['count'],
+                'slave': CaseData['slave'],
+                'function_code': CaseData['function_code'],
+                'datatype': CaseData.get('datatype'),
+                'dataformat': CaseData.get('dataformat')
+            }
+            modbus_logger.debug(f"Modbus连接参数: {modbus_params}")
+    
+            # 类型转换关键参数
+            for param in ['port', 'address', 'count', 'slave', 'function_code']:
+                modbus_params[param] = int(modbus_params[param])
+    
+            # 执行Modbus读取
+            raw_value = self.modb.read_modbus_register(**modbus_params)
+            if raw_value is None:
+>               raise ValueError("Modbus读取失败")
+E               ValueError: Modbus读取失败
+
+testcase\test_run.py:109: ValueError
+
+During handling of the above exception, another exception occurred:
+
+self = <test_run.TestCase object at 0x000002ACB62D6D50>, CaseData = {'id': 4, 'devicetype': 'Pcs', 'Title': '调试单寄存器[函数03]', 'ip': '127.0.0.1', ...}
+modbus_client = {('127.0.0.1', 1234): <ModbusTcpClient at 0x2acb631f8a0 socket=<socket.socket fd=300, family=2, type=1, proto=0, laddr=('127.0.0.1', 63254), raddr=('127.0.0.1', 1234)>, ipaddr=127.0.0.1, port=1234, timeout=3>}
+
+    @pytest.mark.parametrize("CaseData", AllCaseData)
+    def test_001(self, CaseData,modbus_client):
+        logging.info(f"开始执行测试用例: {CaseData['Title']}")
+        # self.dynamic_title(CaseData)
+        # 写入结果配置
+        row = CaseData["id"]
+        DB_RESULT_COL = 20
+        MODBUS_RESULT_COL = 15
+    
+        try:
+            #数据库结果处理
+            db_result = self.__mysql_mongodb_extraction(CaseData)
+            FileDataDriver.writeDataToExcel(
+                row = row,
+                column = DB_RESULT_COL,
+                value = str(db_result)[:255] #限制写入字符长度
+            )
+    
+            # Modbus数据处理
+            modbus_result = self.__modbus_processing(CaseData)
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=MODBUS_RESULT_COL,
+                value=modbus_result
+            )
+            logging.debug(f"数据库查询结果: {db_result}")
+            logging.debug(f"Modbus提取结果: {modbus_result}")
+    
+            # 断言处理逻辑
+            ASSERT_RESULT_COL = 21  #写入列号
+            try:
+                # 类型统一处理
+                db_num = float(db_result) if isinstance(db_result, (int, float, str)) else None
+                modbus_num = float(modbus_result)
+    
+                if db_num is None:
+                    assert_result = "Skip（无数据库结果）"
+                elif abs(db_num - modbus_num) <= 0.001:  # 允许千分之一的误差
+                    assert_result = "Pass"
+                else:
+                    assert_result = f"Fail（差值：{abs(db_num - modbus_num):.4f}）"
+    
+            except (ValueError, TypeError) as e:
+                assert_result = f"Error（类型错误：{str(e)}）"
+            except Exception as e:
+                assert_result = f"Error（未知错误：{str(e)}）"
+    
+            # 写入断言结果
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=ASSERT_RESULT_COL,
+                value=assert_result
+            )
+            # 触发pytest断言
+            if "Fail" in assert_result:
+                pytest.fail(assert_result)
+    
+        except Exception as e:
+            error_msg = f"测试失败: {str(e)}"
+            logging.critical("用例执行失败", exc_info=True)
+            # 同时写入两个结果列
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=DB_RESULT_COL,
+                value=error_msg
+            )
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=MODBUS_RESULT_COL,
+                value=error_msg
+            )
+>           pytest.fail(error_msg)
+E           Failed: 测试失败: Modbus读取失败
+
+testcase\test_run.py:197: Failed  19
+2025-04-22 09:53:19 INFO 异常：<ExceptionInfo 测试失败: Modbus读取失败 tblen=29>  20
+2025-04-22 09:53:19 INFO 用例耗时：0.09275890000571962  21
+2025-04-22 09:53:19 INFO **************************************  22
+2025-04-22 09:53:19 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 63270)  195
+2025-04-22 09:53:19 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:19 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:19 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:19 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:19 INFO 开始执行测试用例: 调试单寄存器[函数04]  128
+2025-04-22 09:53:19 DEBUG 开始数据库操作  55
+2025-04-22 09:53:19 DEBUG Modbus连接参数: {'ip': '127.0.0.1', 'port': 1234, 'address': 21, 'count': 1, 'slave': 1, 'function_code': 4, 'datatype': 0, 'dataformat': 0}  100
+2025-04-22 09:53:19 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 63275)  195
+2025-04-22 09:53:19 DEBUG Processing: 0x0 0x1 0x0 0x0 0x0 0x3 0x1 0x84 0x2  91
+2025-04-22 09:53:19 ERROR Exception response 132 / 0  128
+2025-04-22 09:53:19 DEBUG Frame advanced, resetting header!!  101
+2025-04-22 09:53:19 DEBUG Processing: 0x0 0x2 0x0 0x0 0x0 0x3 0x1 0x84 0x2  91
+2025-04-22 09:53:19 ERROR Exception response 132 / 0  128
+2025-04-22 09:53:19 DEBUG Frame advanced, resetting header!!  101
+2025-04-22 09:53:19 ERROR Modbus错误: ExceptionResponse(dev_id=1, transaction_id=2, address=0, count=0, bits=[], registers=[], status=1)  61
+2025-04-22 09:53:19 ERROR Modbus处理异常  121
+Traceback (most recent call last):
+  File "D:\PycharmProjects\TaokeEms\testcase\test_run.py", line 109, in __modbus_processing
+    raise ValueError("Modbus读取失败")
+ValueError: Modbus读取失败
+2025-04-22 09:53:19 CRITICAL 用例执行失败  185
+Traceback (most recent call last):
+  File "D:\PycharmProjects\TaokeEms\testcase\test_run.py", line 145, in test_001
+    modbus_result = self.__modbus_processing(CaseData)
+  File "D:\PycharmProjects\TaokeEms\testcase\test_run.py", line 122, in __modbus_processing
+    raise e
+  File "D:\PycharmProjects\TaokeEms\testcase\test_run.py", line 109, in __modbus_processing
+    raise ValueError("Modbus读取失败")
+ValueError: Modbus读取失败
+2025-04-22 09:53:20 INFO 用例ID：testcase/test_run.py::TestCase::test_001[CaseData2]  17
+2025-04-22 09:53:20 INFO 测试结果：failed  18
+2025-04-22 09:53:20 INFO 故障表示：self = <test_run.TestCase object at 0x000002ACB62DA060>, CaseData = {'id': 5, 'devicetype': 'Pms', 'Title': '调试单寄存器[函数04]', 'ip': '127.0.0.1', ...}
+modbus_client = {('127.0.0.1', 1234): <ModbusTcpClient at 0x2acb640a7b0 socket=<socket.socket fd=184, family=2, type=1, proto=0, laddr=('127.0.0.1', 63270), raddr=('127.0.0.1', 1234)>, ipaddr=127.0.0.1, port=1234, timeout=3>}
+
+    @pytest.mark.parametrize("CaseData", AllCaseData)
+    def test_001(self, CaseData,modbus_client):
+        logging.info(f"开始执行测试用例: {CaseData['Title']}")
+        # self.dynamic_title(CaseData)
+        # 写入结果配置
+        row = CaseData["id"]
+        DB_RESULT_COL = 20
+        MODBUS_RESULT_COL = 15
+    
+        try:
+            #数据库结果处理
+            db_result = self.__mysql_mongodb_extraction(CaseData)
+            FileDataDriver.writeDataToExcel(
+                row = row,
+                column = DB_RESULT_COL,
+                value = str(db_result)[:255] #限制写入字符长度
+            )
+    
+            # Modbus数据处理
+>           modbus_result = self.__modbus_processing(CaseData)
+
+testcase\test_run.py:145: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+testcase\test_run.py:122: in __modbus_processing
+    raise e
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <test_run.TestCase object at 0x000002ACB62DA060>, CaseData = {'id': 5, 'devicetype': 'Pms', 'Title': '调试单寄存器[函数04]', 'ip': '127.0.0.1', ...}
+
+    def __modbus_processing(self, CaseData) -> float:
+        """Modbus数据处理与计算"""
+        try:
+            # 从Excel用例获取Modbus参数
+            modbus_params = {
+                'ip': CaseData['ip'],
+                'port': CaseData['port'],
+                'address': CaseData['address'],
+                'count': CaseData['count'],
+                'slave': CaseData['slave'],
+                'function_code': CaseData['function_code'],
+                'datatype': CaseData.get('datatype'),
+                'dataformat': CaseData.get('dataformat')
+            }
+            modbus_logger.debug(f"Modbus连接参数: {modbus_params}")
+    
+            # 类型转换关键参数
+            for param in ['port', 'address', 'count', 'slave', 'function_code']:
+                modbus_params[param] = int(modbus_params[param])
+    
+            # 执行Modbus读取
+            raw_value = self.modb.read_modbus_register(**modbus_params)
+            if raw_value is None:
+>               raise ValueError("Modbus读取失败")
+E               ValueError: Modbus读取失败
+
+testcase\test_run.py:109: ValueError
+
+During handling of the above exception, another exception occurred:
+
+self = <test_run.TestCase object at 0x000002ACB62DA060>, CaseData = {'id': 5, 'devicetype': 'Pms', 'Title': '调试单寄存器[函数04]', 'ip': '127.0.0.1', ...}
+modbus_client = {('127.0.0.1', 1234): <ModbusTcpClient at 0x2acb640a7b0 socket=<socket.socket fd=184, family=2, type=1, proto=0, laddr=('127.0.0.1', 63270), raddr=('127.0.0.1', 1234)>, ipaddr=127.0.0.1, port=1234, timeout=3>}
+
+    @pytest.mark.parametrize("CaseData", AllCaseData)
+    def test_001(self, CaseData,modbus_client):
+        logging.info(f"开始执行测试用例: {CaseData['Title']}")
+        # self.dynamic_title(CaseData)
+        # 写入结果配置
+        row = CaseData["id"]
+        DB_RESULT_COL = 20
+        MODBUS_RESULT_COL = 15
+    
+        try:
+            #数据库结果处理
+            db_result = self.__mysql_mongodb_extraction(CaseData)
+            FileDataDriver.writeDataToExcel(
+                row = row,
+                column = DB_RESULT_COL,
+                value = str(db_result)[:255] #限制写入字符长度
+            )
+    
+            # Modbus数据处理
+            modbus_result = self.__modbus_processing(CaseData)
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=MODBUS_RESULT_COL,
+                value=modbus_result
+            )
+            logging.debug(f"数据库查询结果: {db_result}")
+            logging.debug(f"Modbus提取结果: {modbus_result}")
+    
+            # 断言处理逻辑
+            ASSERT_RESULT_COL = 21  #写入列号
+            try:
+                # 类型统一处理
+                db_num = float(db_result) if isinstance(db_result, (int, float, str)) else None
+                modbus_num = float(modbus_result)
+    
+                if db_num is None:
+                    assert_result = "Skip（无数据库结果）"
+                elif abs(db_num - modbus_num) <= 0.001:  # 允许千分之一的误差
+                    assert_result = "Pass"
+                else:
+                    assert_result = f"Fail（差值：{abs(db_num - modbus_num):.4f}）"
+    
+            except (ValueError, TypeError) as e:
+                assert_result = f"Error（类型错误：{str(e)}）"
+            except Exception as e:
+                assert_result = f"Error（未知错误：{str(e)}）"
+    
+            # 写入断言结果
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=ASSERT_RESULT_COL,
+                value=assert_result
+            )
+            # 触发pytest断言
+            if "Fail" in assert_result:
+                pytest.fail(assert_result)
+    
+        except Exception as e:
+            error_msg = f"测试失败: {str(e)}"
+            logging.critical("用例执行失败", exc_info=True)
+            # 同时写入两个结果列
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=DB_RESULT_COL,
+                value=error_msg
+            )
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=MODBUS_RESULT_COL,
+                value=error_msg
+            )
+>           pytest.fail(error_msg)
+E           Failed: 测试失败: Modbus读取失败
+
+testcase\test_run.py:197: Failed  19
+2025-04-22 09:53:20 INFO 异常：<ExceptionInfo 测试失败: Modbus读取失败 tblen=29>  20
+2025-04-22 09:53:20 INFO 用例耗时：0.09489539999049157  21
+2025-04-22 09:53:20 INFO **************************************  22
+2025-04-22 09:53:20 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 63674)  195
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 INFO 开始执行测试用例: None  128
+2025-04-22 09:53:20 DEBUG 开始数据库操作  55
+2025-04-22 09:53:20 CRITICAL 用例执行失败  185
+Traceback (most recent call last):
+  File "D:\PycharmProjects\TaokeEms\testcase\test_run.py", line 138, in test_001
+    FileDataDriver.writeDataToExcel(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        row = row,
+        ^^^^^^^^^^
+        column = DB_RESULT_COL,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        value = str(db_result)[:255] #限制写入字符长度
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\PycharmProjects\TaokeEms\Common\FileDataDriver.py", line 53, in writeDataToExcel
+    worksheet.cell(row=row, column=column).value = value
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PycharmProjects\TaokeUiauto\.venv\Lib\site-packages\openpyxl\worksheet\worksheet.py", line 241, in cell
+    if row < 1 or column < 1:
+       ^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+2025-04-22 09:53:20 INFO 用例ID：testcase/test_run.py::TestCase::test_001[CaseData3]  17
+2025-04-22 09:53:20 INFO 测试结果：failed  18
+2025-04-22 09:53:20 INFO 故障表示：self = <test_run.TestCase object at 0x000002ACB62D9F30>, CaseData = {'id': None, 'devicetype': None, 'Title': None, 'ip': None, ...}
+modbus_client = {('127.0.0.1', 1234): <ModbusTcpClient at 0x2acb63595a0 socket=<socket.socket fd=644, family=2, type=1, proto=0, laddr=('127.0.0.1', 63674), raddr=('127.0.0.1', 1234)>, ipaddr=127.0.0.1, port=1234, timeout=3>}
+
+    @pytest.mark.parametrize("CaseData", AllCaseData)
+    def test_001(self, CaseData,modbus_client):
+        logging.info(f"开始执行测试用例: {CaseData['Title']}")
+        # self.dynamic_title(CaseData)
+        # 写入结果配置
+        row = CaseData["id"]
+        DB_RESULT_COL = 20
+        MODBUS_RESULT_COL = 15
+    
+        try:
+            #数据库结果处理
+            db_result = self.__mysql_mongodb_extraction(CaseData)
+>           FileDataDriver.writeDataToExcel(
+                row = row,
+                column = DB_RESULT_COL,
+                value = str(db_result)[:255] #限制写入字符长度
+            )
+
+testcase\test_run.py:138: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Common\FileDataDriver.py:53: in writeDataToExcel
+    worksheet.cell(row=row, column=column).value = value
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Worksheet "Sheet1">, row = None, column = 20, value = None
+
+    def cell(self, row, column, value=None):
+        """
+        Returns a cell object based on the given coordinates.
+    
+        Usage: cell(row=15, column=1, value=5)
+    
+        Calling `cell` creates cells in memory when they
+        are first accessed.
+    
+        :param row: row index of the cell (e.g. 4)
+        :type row: int
+    
+        :param column: column index of the cell (e.g. 3)
+        :type column: int
+    
+        :param value: value of the cell (e.g. 5)
+        :type value: numeric or time or string or bool or none
+    
+        :rtype: openpyxl.cell.cell.Cell
+        """
+    
+>       if row < 1 or column < 1:
+E       TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+..\TaokeUiauto\.venv\Lib\site-packages\openpyxl\worksheet\worksheet.py:241: TypeError
+
+During handling of the above exception, another exception occurred:
+
+self = <test_run.TestCase object at 0x000002ACB62D9F30>, CaseData = {'id': None, 'devicetype': None, 'Title': None, 'ip': None, ...}
+modbus_client = {('127.0.0.1', 1234): <ModbusTcpClient at 0x2acb63595a0 socket=<socket.socket fd=644, family=2, type=1, proto=0, laddr=('127.0.0.1', 63674), raddr=('127.0.0.1', 1234)>, ipaddr=127.0.0.1, port=1234, timeout=3>}
+
+    @pytest.mark.parametrize("CaseData", AllCaseData)
+    def test_001(self, CaseData,modbus_client):
+        logging.info(f"开始执行测试用例: {CaseData['Title']}")
+        # self.dynamic_title(CaseData)
+        # 写入结果配置
+        row = CaseData["id"]
+        DB_RESULT_COL = 20
+        MODBUS_RESULT_COL = 15
+    
+        try:
+            #数据库结果处理
+            db_result = self.__mysql_mongodb_extraction(CaseData)
+            FileDataDriver.writeDataToExcel(
+                row = row,
+                column = DB_RESULT_COL,
+                value = str(db_result)[:255] #限制写入字符长度
+            )
+    
+            # Modbus数据处理
+            modbus_result = self.__modbus_processing(CaseData)
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=MODBUS_RESULT_COL,
+                value=modbus_result
+            )
+            logging.debug(f"数据库查询结果: {db_result}")
+            logging.debug(f"Modbus提取结果: {modbus_result}")
+    
+            # 断言处理逻辑
+            ASSERT_RESULT_COL = 21  #写入列号
+            try:
+                # 类型统一处理
+                db_num = float(db_result) if isinstance(db_result, (int, float, str)) else None
+                modbus_num = float(modbus_result)
+    
+                if db_num is None:
+                    assert_result = "Skip（无数据库结果）"
+                elif abs(db_num - modbus_num) <= 0.001:  # 允许千分之一的误差
+                    assert_result = "Pass"
+                else:
+                    assert_result = f"Fail（差值：{abs(db_num - modbus_num):.4f}）"
+    
+            except (ValueError, TypeError) as e:
+                assert_result = f"Error（类型错误：{str(e)}）"
+            except Exception as e:
+                assert_result = f"Error（未知错误：{str(e)}）"
+    
+            # 写入断言结果
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=ASSERT_RESULT_COL,
+                value=assert_result
+            )
+            # 触发pytest断言
+            if "Fail" in assert_result:
+                pytest.fail(assert_result)
+    
+        except Exception as e:
+            error_msg = f"测试失败: {str(e)}"
+            logging.critical("用例执行失败", exc_info=True)
+            # 同时写入两个结果列
+>           FileDataDriver.writeDataToExcel(
+                row=row,
+                column=DB_RESULT_COL,
+                value=error_msg
+            )
+
+testcase\test_run.py:187: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Common\FileDataDriver.py:53: in writeDataToExcel
+    worksheet.cell(row=row, column=column).value = value
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Worksheet "Sheet1">, row = None, column = 20, value = None
+
+    def cell(self, row, column, value=None):
+        """
+        Returns a cell object based on the given coordinates.
+    
+        Usage: cell(row=15, column=1, value=5)
+    
+        Calling `cell` creates cells in memory when they
+        are first accessed.
+    
+        :param row: row index of the cell (e.g. 4)
+        :type row: int
+    
+        :param column: column index of the cell (e.g. 3)
+        :type column: int
+    
+        :param value: value of the cell (e.g. 5)
+        :type value: numeric or time or string or bool or none
+    
+        :rtype: openpyxl.cell.cell.Cell
+        """
+    
+>       if row < 1 or column < 1:
+E       TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+..\TaokeUiauto\.venv\Lib\site-packages\openpyxl\worksheet\worksheet.py:241: TypeError  19
+2025-04-22 09:53:20 INFO 异常：<ExceptionInfo TypeError("'<' not supported between instances of 'NoneType' and 'int'") tblen=30>  20
+2025-04-22 09:53:20 INFO 用例耗时：0.018196599994553253  21
+2025-04-22 09:53:20 INFO **************************************  22
+2025-04-22 09:53:20 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 64038)  195
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 INFO 开始执行测试用例: None  128
+2025-04-22 09:53:20 DEBUG 开始数据库操作  55
+2025-04-22 09:53:20 CRITICAL 用例执行失败  185
+Traceback (most recent call last):
+  File "D:\PycharmProjects\TaokeEms\testcase\test_run.py", line 138, in test_001
+    FileDataDriver.writeDataToExcel(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        row = row,
+        ^^^^^^^^^^
+        column = DB_RESULT_COL,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        value = str(db_result)[:255] #限制写入字符长度
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\PycharmProjects\TaokeEms\Common\FileDataDriver.py", line 53, in writeDataToExcel
+    worksheet.cell(row=row, column=column).value = value
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PycharmProjects\TaokeUiauto\.venv\Lib\site-packages\openpyxl\worksheet\worksheet.py", line 241, in cell
+    if row < 1 or column < 1:
+       ^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+2025-04-22 09:53:20 INFO 用例ID：testcase/test_run.py::TestCase::test_001[CaseData4]  17
+2025-04-22 09:53:20 INFO 测试结果：failed  18
+2025-04-22 09:53:20 INFO 故障表示：self = <test_run.TestCase object at 0x000002ACB63B4CB0>, CaseData = {'id': None, 'devicetype': None, 'Title': None, 'ip': None, ...}
+modbus_client = {('127.0.0.1', 1234): <ModbusTcpClient at 0x2acb65bb1b0 socket=<socket.socket fd=676, family=2, type=1, proto=0, laddr=('127.0.0.1', 64038), raddr=('127.0.0.1', 1234)>, ipaddr=127.0.0.1, port=1234, timeout=3>}
+
+    @pytest.mark.parametrize("CaseData", AllCaseData)
+    def test_001(self, CaseData,modbus_client):
+        logging.info(f"开始执行测试用例: {CaseData['Title']}")
+        # self.dynamic_title(CaseData)
+        # 写入结果配置
+        row = CaseData["id"]
+        DB_RESULT_COL = 20
+        MODBUS_RESULT_COL = 15
+    
+        try:
+            #数据库结果处理
+            db_result = self.__mysql_mongodb_extraction(CaseData)
+>           FileDataDriver.writeDataToExcel(
+                row = row,
+                column = DB_RESULT_COL,
+                value = str(db_result)[:255] #限制写入字符长度
+            )
+
+testcase\test_run.py:138: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Common\FileDataDriver.py:53: in writeDataToExcel
+    worksheet.cell(row=row, column=column).value = value
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Worksheet "Sheet1">, row = None, column = 20, value = None
+
+    def cell(self, row, column, value=None):
+        """
+        Returns a cell object based on the given coordinates.
+    
+        Usage: cell(row=15, column=1, value=5)
+    
+        Calling `cell` creates cells in memory when they
+        are first accessed.
+    
+        :param row: row index of the cell (e.g. 4)
+        :type row: int
+    
+        :param column: column index of the cell (e.g. 3)
+        :type column: int
+    
+        :param value: value of the cell (e.g. 5)
+        :type value: numeric or time or string or bool or none
+    
+        :rtype: openpyxl.cell.cell.Cell
+        """
+    
+>       if row < 1 or column < 1:
+E       TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+..\TaokeUiauto\.venv\Lib\site-packages\openpyxl\worksheet\worksheet.py:241: TypeError
+
+During handling of the above exception, another exception occurred:
+
+self = <test_run.TestCase object at 0x000002ACB63B4CB0>, CaseData = {'id': None, 'devicetype': None, 'Title': None, 'ip': None, ...}
+modbus_client = {('127.0.0.1', 1234): <ModbusTcpClient at 0x2acb65bb1b0 socket=<socket.socket fd=676, family=2, type=1, proto=0, laddr=('127.0.0.1', 64038), raddr=('127.0.0.1', 1234)>, ipaddr=127.0.0.1, port=1234, timeout=3>}
+
+    @pytest.mark.parametrize("CaseData", AllCaseData)
+    def test_001(self, CaseData,modbus_client):
+        logging.info(f"开始执行测试用例: {CaseData['Title']}")
+        # self.dynamic_title(CaseData)
+        # 写入结果配置
+        row = CaseData["id"]
+        DB_RESULT_COL = 20
+        MODBUS_RESULT_COL = 15
+    
+        try:
+            #数据库结果处理
+            db_result = self.__mysql_mongodb_extraction(CaseData)
+            FileDataDriver.writeDataToExcel(
+                row = row,
+                column = DB_RESULT_COL,
+                value = str(db_result)[:255] #限制写入字符长度
+            )
+    
+            # Modbus数据处理
+            modbus_result = self.__modbus_processing(CaseData)
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=MODBUS_RESULT_COL,
+                value=modbus_result
+            )
+            logging.debug(f"数据库查询结果: {db_result}")
+            logging.debug(f"Modbus提取结果: {modbus_result}")
+    
+            # 断言处理逻辑
+            ASSERT_RESULT_COL = 21  #写入列号
+            try:
+                # 类型统一处理
+                db_num = float(db_result) if isinstance(db_result, (int, float, str)) else None
+                modbus_num = float(modbus_result)
+    
+                if db_num is None:
+                    assert_result = "Skip（无数据库结果）"
+                elif abs(db_num - modbus_num) <= 0.001:  # 允许千分之一的误差
+                    assert_result = "Pass"
+                else:
+                    assert_result = f"Fail（差值：{abs(db_num - modbus_num):.4f}）"
+    
+            except (ValueError, TypeError) as e:
+                assert_result = f"Error（类型错误：{str(e)}）"
+            except Exception as e:
+                assert_result = f"Error（未知错误：{str(e)}）"
+    
+            # 写入断言结果
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=ASSERT_RESULT_COL,
+                value=assert_result
+            )
+            # 触发pytest断言
+            if "Fail" in assert_result:
+                pytest.fail(assert_result)
+    
+        except Exception as e:
+            error_msg = f"测试失败: {str(e)}"
+            logging.critical("用例执行失败", exc_info=True)
+            # 同时写入两个结果列
+>           FileDataDriver.writeDataToExcel(
+                row=row,
+                column=DB_RESULT_COL,
+                value=error_msg
+            )
+
+testcase\test_run.py:187: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Common\FileDataDriver.py:53: in writeDataToExcel
+    worksheet.cell(row=row, column=column).value = value
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Worksheet "Sheet1">, row = None, column = 20, value = None
+
+    def cell(self, row, column, value=None):
+        """
+        Returns a cell object based on the given coordinates.
+    
+        Usage: cell(row=15, column=1, value=5)
+    
+        Calling `cell` creates cells in memory when they
+        are first accessed.
+    
+        :param row: row index of the cell (e.g. 4)
+        :type row: int
+    
+        :param column: column index of the cell (e.g. 3)
+        :type column: int
+    
+        :param value: value of the cell (e.g. 5)
+        :type value: numeric or time or string or bool or none
+    
+        :rtype: openpyxl.cell.cell.Cell
+        """
+    
+>       if row < 1 or column < 1:
+E       TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+..\TaokeUiauto\.venv\Lib\site-packages\openpyxl\worksheet\worksheet.py:241: TypeError  19
+2025-04-22 09:53:20 INFO 异常：<ExceptionInfo TypeError("'<' not supported between instances of 'NoneType' and 'int'") tblen=30>  20
+2025-04-22 09:53:20 INFO 用例耗时：0.02686149999499321  21
+2025-04-22 09:53:20 INFO **************************************  22
+2025-04-22 09:53:20 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 64915)  195
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 INFO 开始执行测试用例: None  128
+2025-04-22 09:53:20 DEBUG 开始数据库操作  55
+2025-04-22 09:53:20 CRITICAL 用例执行失败  185
+Traceback (most recent call last):
+  File "D:\PycharmProjects\TaokeEms\testcase\test_run.py", line 138, in test_001
+    FileDataDriver.writeDataToExcel(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        row = row,
+        ^^^^^^^^^^
+        column = DB_RESULT_COL,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        value = str(db_result)[:255] #限制写入字符长度
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\PycharmProjects\TaokeEms\Common\FileDataDriver.py", line 53, in writeDataToExcel
+    worksheet.cell(row=row, column=column).value = value
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PycharmProjects\TaokeUiauto\.venv\Lib\site-packages\openpyxl\worksheet\worksheet.py", line 241, in cell
+    if row < 1 or column < 1:
+       ^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+2025-04-22 09:53:20 INFO 用例ID：testcase/test_run.py::TestCase::test_001[CaseData5]  17
+2025-04-22 09:53:20 INFO 测试结果：failed  18
+2025-04-22 09:53:20 INFO 故障表示：self = <test_run.TestCase object at 0x000002ACB631EE00>, CaseData = {'id': None, 'devicetype': None, 'Title': None, 'ip': None, ...}
+modbus_client = {('127.0.0.1', 1234): <ModbusTcpClient at 0x2acb65bb7f0 socket=<socket.socket fd=684, family=2, type=1, proto=0, laddr=('127.0.0.1', 64915), raddr=('127.0.0.1', 1234)>, ipaddr=127.0.0.1, port=1234, timeout=3>}
+
+    @pytest.mark.parametrize("CaseData", AllCaseData)
+    def test_001(self, CaseData,modbus_client):
+        logging.info(f"开始执行测试用例: {CaseData['Title']}")
+        # self.dynamic_title(CaseData)
+        # 写入结果配置
+        row = CaseData["id"]
+        DB_RESULT_COL = 20
+        MODBUS_RESULT_COL = 15
+    
+        try:
+            #数据库结果处理
+            db_result = self.__mysql_mongodb_extraction(CaseData)
+>           FileDataDriver.writeDataToExcel(
+                row = row,
+                column = DB_RESULT_COL,
+                value = str(db_result)[:255] #限制写入字符长度
+            )
+
+testcase\test_run.py:138: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Common\FileDataDriver.py:53: in writeDataToExcel
+    worksheet.cell(row=row, column=column).value = value
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Worksheet "Sheet1">, row = None, column = 20, value = None
+
+    def cell(self, row, column, value=None):
+        """
+        Returns a cell object based on the given coordinates.
+    
+        Usage: cell(row=15, column=1, value=5)
+    
+        Calling `cell` creates cells in memory when they
+        are first accessed.
+    
+        :param row: row index of the cell (e.g. 4)
+        :type row: int
+    
+        :param column: column index of the cell (e.g. 3)
+        :type column: int
+    
+        :param value: value of the cell (e.g. 5)
+        :type value: numeric or time or string or bool or none
+    
+        :rtype: openpyxl.cell.cell.Cell
+        """
+    
+>       if row < 1 or column < 1:
+E       TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+..\TaokeUiauto\.venv\Lib\site-packages\openpyxl\worksheet\worksheet.py:241: TypeError
+
+During handling of the above exception, another exception occurred:
+
+self = <test_run.TestCase object at 0x000002ACB631EE00>, CaseData = {'id': None, 'devicetype': None, 'Title': None, 'ip': None, ...}
+modbus_client = {('127.0.0.1', 1234): <ModbusTcpClient at 0x2acb65bb7f0 socket=<socket.socket fd=684, family=2, type=1, proto=0, laddr=('127.0.0.1', 64915), raddr=('127.0.0.1', 1234)>, ipaddr=127.0.0.1, port=1234, timeout=3>}
+
+    @pytest.mark.parametrize("CaseData", AllCaseData)
+    def test_001(self, CaseData,modbus_client):
+        logging.info(f"开始执行测试用例: {CaseData['Title']}")
+        # self.dynamic_title(CaseData)
+        # 写入结果配置
+        row = CaseData["id"]
+        DB_RESULT_COL = 20
+        MODBUS_RESULT_COL = 15
+    
+        try:
+            #数据库结果处理
+            db_result = self.__mysql_mongodb_extraction(CaseData)
+            FileDataDriver.writeDataToExcel(
+                row = row,
+                column = DB_RESULT_COL,
+                value = str(db_result)[:255] #限制写入字符长度
+            )
+    
+            # Modbus数据处理
+            modbus_result = self.__modbus_processing(CaseData)
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=MODBUS_RESULT_COL,
+                value=modbus_result
+            )
+            logging.debug(f"数据库查询结果: {db_result}")
+            logging.debug(f"Modbus提取结果: {modbus_result}")
+    
+            # 断言处理逻辑
+            ASSERT_RESULT_COL = 21  #写入列号
+            try:
+                # 类型统一处理
+                db_num = float(db_result) if isinstance(db_result, (int, float, str)) else None
+                modbus_num = float(modbus_result)
+    
+                if db_num is None:
+                    assert_result = "Skip（无数据库结果）"
+                elif abs(db_num - modbus_num) <= 0.001:  # 允许千分之一的误差
+                    assert_result = "Pass"
+                else:
+                    assert_result = f"Fail（差值：{abs(db_num - modbus_num):.4f}）"
+    
+            except (ValueError, TypeError) as e:
+                assert_result = f"Error（类型错误：{str(e)}）"
+            except Exception as e:
+                assert_result = f"Error（未知错误：{str(e)}）"
+    
+            # 写入断言结果
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=ASSERT_RESULT_COL,
+                value=assert_result
+            )
+            # 触发pytest断言
+            if "Fail" in assert_result:
+                pytest.fail(assert_result)
+    
+        except Exception as e:
+            error_msg = f"测试失败: {str(e)}"
+            logging.critical("用例执行失败", exc_info=True)
+            # 同时写入两个结果列
+>           FileDataDriver.writeDataToExcel(
+                row=row,
+                column=DB_RESULT_COL,
+                value=error_msg
+            )
+
+testcase\test_run.py:187: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Common\FileDataDriver.py:53: in writeDataToExcel
+    worksheet.cell(row=row, column=column).value = value
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Worksheet "Sheet1">, row = None, column = 20, value = None
+
+    def cell(self, row, column, value=None):
+        """
+        Returns a cell object based on the given coordinates.
+    
+        Usage: cell(row=15, column=1, value=5)
+    
+        Calling `cell` creates cells in memory when they
+        are first accessed.
+    
+        :param row: row index of the cell (e.g. 4)
+        :type row: int
+    
+        :param column: column index of the cell (e.g. 3)
+        :type column: int
+    
+        :param value: value of the cell (e.g. 5)
+        :type value: numeric or time or string or bool or none
+    
+        :rtype: openpyxl.cell.cell.Cell
+        """
+    
+>       if row < 1 or column < 1:
+E       TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+..\TaokeUiauto\.venv\Lib\site-packages\openpyxl\worksheet\worksheet.py:241: TypeError  19
+2025-04-22 09:53:20 INFO 异常：<ExceptionInfo TypeError("'<' not supported between instances of 'NoneType' and 'int'") tblen=30>  20
+2025-04-22 09:53:20 INFO 用例耗时：0.016915800006245263  21
+2025-04-22 09:53:20 INFO **************************************  22
+2025-04-22 09:53:20 DEBUG Connection to Modbus server established. Socket ('127.0.0.1', 65427)  195
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 ERROR Connection to (None, None) failed: [Errno 11001] getaddrinfo failed  200
+2025-04-22 09:53:20 INFO 开始执行测试用例: None  128
+2025-04-22 09:53:20 DEBUG 开始数据库操作  55
+2025-04-22 09:53:20 CRITICAL 用例执行失败  185
+Traceback (most recent call last):
+  File "D:\PycharmProjects\TaokeEms\testcase\test_run.py", line 138, in test_001
+    FileDataDriver.writeDataToExcel(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        row = row,
+        ^^^^^^^^^^
+        column = DB_RESULT_COL,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        value = str(db_result)[:255] #限制写入字符长度
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\PycharmProjects\TaokeEms\Common\FileDataDriver.py", line 53, in writeDataToExcel
+    worksheet.cell(row=row, column=column).value = value
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PycharmProjects\TaokeUiauto\.venv\Lib\site-packages\openpyxl\worksheet\worksheet.py", line 241, in cell
+    if row < 1 or column < 1:
+       ^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+2025-04-22 09:53:20 INFO 用例ID：testcase/test_run.py::TestCase::test_001[CaseData6]  17
+2025-04-22 09:53:20 INFO 测试结果：failed  18
+2025-04-22 09:53:20 INFO 故障表示：self = <test_run.TestCase object at 0x000002ACB631DE10>, CaseData = {'id': None, 'devicetype': None, 'Title': None, 'ip': None, ...}
+modbus_client = {('127.0.0.1', 1234): <ModbusTcpClient at 0x2acb65ba2b0 socket=<socket.socket fd=684, family=2, type=1, proto=0, laddr=('127.0.0.1', 65427), raddr=('127.0.0.1', 1234)>, ipaddr=127.0.0.1, port=1234, timeout=3>}
+
+    @pytest.mark.parametrize("CaseData", AllCaseData)
+    def test_001(self, CaseData,modbus_client):
+        logging.info(f"开始执行测试用例: {CaseData['Title']}")
+        # self.dynamic_title(CaseData)
+        # 写入结果配置
+        row = CaseData["id"]
+        DB_RESULT_COL = 20
+        MODBUS_RESULT_COL = 15
+    
+        try:
+            #数据库结果处理
+            db_result = self.__mysql_mongodb_extraction(CaseData)
+>           FileDataDriver.writeDataToExcel(
+                row = row,
+                column = DB_RESULT_COL,
+                value = str(db_result)[:255] #限制写入字符长度
+            )
+
+testcase\test_run.py:138: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Common\FileDataDriver.py:53: in writeDataToExcel
+    worksheet.cell(row=row, column=column).value = value
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Worksheet "Sheet1">, row = None, column = 20, value = None
+
+    def cell(self, row, column, value=None):
+        """
+        Returns a cell object based on the given coordinates.
+    
+        Usage: cell(row=15, column=1, value=5)
+    
+        Calling `cell` creates cells in memory when they
+        are first accessed.
+    
+        :param row: row index of the cell (e.g. 4)
+        :type row: int
+    
+        :param column: column index of the cell (e.g. 3)
+        :type column: int
+    
+        :param value: value of the cell (e.g. 5)
+        :type value: numeric or time or string or bool or none
+    
+        :rtype: openpyxl.cell.cell.Cell
+        """
+    
+>       if row < 1 or column < 1:
+E       TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+..\TaokeUiauto\.venv\Lib\site-packages\openpyxl\worksheet\worksheet.py:241: TypeError
+
+During handling of the above exception, another exception occurred:
+
+self = <test_run.TestCase object at 0x000002ACB631DE10>, CaseData = {'id': None, 'devicetype': None, 'Title': None, 'ip': None, ...}
+modbus_client = {('127.0.0.1', 1234): <ModbusTcpClient at 0x2acb65ba2b0 socket=<socket.socket fd=684, family=2, type=1, proto=0, laddr=('127.0.0.1', 65427), raddr=('127.0.0.1', 1234)>, ipaddr=127.0.0.1, port=1234, timeout=3>}
+
+    @pytest.mark.parametrize("CaseData", AllCaseData)
+    def test_001(self, CaseData,modbus_client):
+        logging.info(f"开始执行测试用例: {CaseData['Title']}")
+        # self.dynamic_title(CaseData)
+        # 写入结果配置
+        row = CaseData["id"]
+        DB_RESULT_COL = 20
+        MODBUS_RESULT_COL = 15
+    
+        try:
+            #数据库结果处理
+            db_result = self.__mysql_mongodb_extraction(CaseData)
+            FileDataDriver.writeDataToExcel(
+                row = row,
+                column = DB_RESULT_COL,
+                value = str(db_result)[:255] #限制写入字符长度
+            )
+    
+            # Modbus数据处理
+            modbus_result = self.__modbus_processing(CaseData)
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=MODBUS_RESULT_COL,
+                value=modbus_result
+            )
+            logging.debug(f"数据库查询结果: {db_result}")
+            logging.debug(f"Modbus提取结果: {modbus_result}")
+    
+            # 断言处理逻辑
+            ASSERT_RESULT_COL = 21  #写入列号
+            try:
+                # 类型统一处理
+                db_num = float(db_result) if isinstance(db_result, (int, float, str)) else None
+                modbus_num = float(modbus_result)
+    
+                if db_num is None:
+                    assert_result = "Skip（无数据库结果）"
+                elif abs(db_num - modbus_num) <= 0.001:  # 允许千分之一的误差
+                    assert_result = "Pass"
+                else:
+                    assert_result = f"Fail（差值：{abs(db_num - modbus_num):.4f}）"
+    
+            except (ValueError, TypeError) as e:
+                assert_result = f"Error（类型错误：{str(e)}）"
+            except Exception as e:
+                assert_result = f"Error（未知错误：{str(e)}）"
+    
+            # 写入断言结果
+            FileDataDriver.writeDataToExcel(
+                row=row,
+                column=ASSERT_RESULT_COL,
+                value=assert_result
+            )
+            # 触发pytest断言
+            if "Fail" in assert_result:
+                pytest.fail(assert_result)
+    
+        except Exception as e:
+            error_msg = f"测试失败: {str(e)}"
+            logging.critical("用例执行失败", exc_info=True)
+            # 同时写入两个结果列
+>           FileDataDriver.writeDataToExcel(
+                row=row,
+                column=DB_RESULT_COL,
+                value=error_msg
+            )
+
+testcase\test_run.py:187: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Common\FileDataDriver.py:53: in writeDataToExcel
+    worksheet.cell(row=row, column=column).value = value
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Worksheet "Sheet1">, row = None, column = 20, value = None
+
+    def cell(self, row, column, value=None):
+        """
+        Returns a cell object based on the given coordinates.
+    
+        Usage: cell(row=15, column=1, value=5)
+    
+        Calling `cell` creates cells in memory when they
+        are first accessed.
+    
+        :param row: row index of the cell (e.g. 4)
+        :type row: int
+    
+        :param column: column index of the cell (e.g. 3)
+        :type column: int
+    
+        :param value: value of the cell (e.g. 5)
+        :type value: numeric or time or string or bool or none
+    
+        :rtype: openpyxl.cell.cell.Cell
+        """
+    
+>       if row < 1 or column < 1:
+E       TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+..\TaokeUiauto\.venv\Lib\site-packages\openpyxl\worksheet\worksheet.py:241: TypeError  19
+2025-04-22 09:53:20 INFO 异常：<ExceptionInfo TypeError("'<' not supported between instances of 'NoneType' and 'int'") tblen=30>  20
+2025-04-22 09:53:20 INFO 用例耗时：0.018833099995390512  21
+2025-04-22 09:53:20 INFO **************************************  22
