@@ -1,10 +1,10 @@
 import logging
 import pytest
 import allure
-from TaokeEms.config import *
-from TaokeEms.Common.feishu_test_case import FeishuTestCase
-from TaokeEms.Common.modbus_value import ProcessModbusData
-from TaokeEms.Common.sql_value import ProcessMongodbData
+from config import *
+from Common.feishu_test_case import FeishuTestCase
+from Common.modbus_value import ProcessModbusData
+from Common.sql_value import ProcessMongodbData
 
 # 初始化日志
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')

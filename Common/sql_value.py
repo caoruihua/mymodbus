@@ -1,6 +1,6 @@
 import allure
 import pymysql
-from TaokeEms.config import *
+from config import *
 from pymongo import MongoClient, DESCENDING
 from pymongo.errors import PyMongoError
 import logging

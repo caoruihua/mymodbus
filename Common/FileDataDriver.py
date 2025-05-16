@@ -1,6 +1,6 @@
 
 # 用来读取和写入excel
-from TaokeEms.config import *
+from config import *
 import openpyxl
 
 
