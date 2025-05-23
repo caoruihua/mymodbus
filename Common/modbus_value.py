@@ -18,6 +18,7 @@ logger = logging.getLogger('modbus_reader')  # 修正了logger名称
 
 class ProcessModbusData:
     # 初始化
+    @allure.step(">>>>>>初始化连接modbus参数")
     def __init__(self, ip, port, address, count, slave, function_code, write_value, datatype=None, dataformat=None):
         self.ip = ip
         self.port = port
@@ -45,6 +46,7 @@ class ProcessModbusData:
         self.client = ModbusTcpClient(host=ip, port=port, timeout=3000)
 
     # 连接信息
+    @allure.step(">>>>>>连接modbus")
     def connect(self):
         if self.client():
             logger.info("成功连接到 Modbus 服务器")
@@ -53,6 +55,7 @@ class ProcessModbusData:
             exit(1)
 
     # 写入寄存器数据
+    @allure.step(">>>>>>执行写入modbus操作")
     def write_modbus_register(self):
         if self.client and self.write_value is not None and self.function_code is not None:
             print(f"尝试写入到 IP: {self.ip}, 地址: {self.address}, SlaveID: {self.slave}, 端口: {self.port}, 写入功能码: {self.function_code}, 写入值: {self.write_value}")
