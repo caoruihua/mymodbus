@@ -11,6 +11,32 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
 db_logger = logging.getLogger("database")
 modbus_logger = logging.getLogger("modbus")
 
+
+def dynamic_title(test_data):
+    """动态生成allure报告标题"""
+    allure.dynamic.title(test_data["Title"])
+
+    # 如果存在自定义标题
+    if test_data["Title"] is not None:
+        # 动态生成标题
+        allure.dynamic.title(test_data["Title"])
+
+    if test_data["storyName"] is not None:
+        # 动态获取story模块名
+        allure.dynamic.story(test_data["storyName"])
+
+    if test_data["featureName"] is not None:
+        # 动态获取feature模块名
+        allure.dynamic.feature(test_data["featureName"])
+
+    if test_data["remark"] is not None:
+        # 动态获取备注信息
+        allure.dynamic.description(test_data["remark"])
+
+    if test_data["rank"] is not None:
+        # 动态获取级别信息(blocker、critical、normal、minor、trivial)
+        allure.dynamic.severity(test_data["rank"])
+
 # 获取飞书数据
 def test_data():
     global feishu_test_case
