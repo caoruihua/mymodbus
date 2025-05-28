@@ -59,14 +59,14 @@ class FeishuTestCase:
         response = requests.put(url, json=json, headers=headers)
         response.raise_for_status()  # 检查请求是否成功
 
-if __name__ == '__main__':
-    from TaokeEms.config import *
-    # FeishuTestCase(app_id, app_secret, app_token, table_id, ).updata_bitable_data("recYi7EnJ4", "成功")
-    feishu_test_case = FeishuTestCase(app_id, app_secret, app_token, table_id)
-    feishu_case_data = feishu_test_case.get_bitable_data()
-    for data in feishu_case_data:
-        feishu_test_case.updata_bitable_data(data["record_id"], "Mongomysqlresult", "888")
-        print("写入成功")
-    #
-    # feishu_test_case.updata_bitable_data(feishu_case_data)
-    # print(feishu_case_data)
+# if __name__ == '__main__':
+#     from TaokeEms.config import *
+#     # FeishuTestCase(app_id, app_secret, app_token, table_id, ).updata_bitable_data("recYi7EnJ4", "成功")
+#     feishu_test_case = FeishuTestCase(app_id, app_secret, app_token, table_id)
+#     feishu_case_data = feishu_test_case.get_bitable_data()
+#     for data in feishu_case_data:
+#         feishu_test_case.updata_bitable_data(data["record_id"], "Mongomysqlresult", "888")
+#         print("写入成功")
+#     #
+#     # feishu_test_case.updata_bitable_data(feishu_case_data)
+#     # print(feishu_case_data)

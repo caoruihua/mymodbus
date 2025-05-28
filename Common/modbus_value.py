@@ -2,6 +2,7 @@ from pymodbus.client import ModbusTcpClient
 from pymodbus.payload import BinaryPayloadBuilder
 import logging
 import struct
+import allure
 
 logging.basicConfig(
     level=logging.INFO,
@@ -174,15 +175,15 @@ class ProcessModbusData:
     #         client.close()
 
 
-if __name__ == '__main__':
-    from TaokeEms.config import *
-    from TaokeEms.Common.feishu_test_case import FeishuTestCase
-    ProcessModbusData("127.0.0.1", "501", 34, 2, 1, 3, [1, 2], datatype=None, dataformat=2).write_modbus_register()
-
-    # AllCaseData = FeishuTestCase(app_id, app_secret, app_token, table_id).get_bitable_data()[0]
-    # ip = AllCaseData["ip"]
-    # port = AllCaseData["port"]
-    # address = int(AllCaseData["address"])
+# if __name__ == '__main__':
+#     from TaokeEms.config import *
+#     from TaokeEms.Common.feishu_test_case import FeishuTestCase
+#     ProcessModbusData("127.0.0.1", "501", 34, 2, 1, 3, [1, 2], datatype=None, dataformat=2).write_modbus_register()
+#
+#     # AllCaseData = FeishuTestCase(app_id, app_secret, app_token, table_id).get_bitable_data()[0]
+#     # ip = AllCaseData["ip"]
+#     # port = AllCaseData["port"]
+#     # address = int(AllCaseData["address"])
     # count = AllCaseData["count"]
     # slave = AllCaseData["slave"]
     # function_code = AllCaseData["function_code"]

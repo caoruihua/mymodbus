@@ -31,7 +31,7 @@ def register_params_from_excel():
         # data_list = FileDataDriver.readExcel(excel_file)
 
         # 从飞书获取数据
-        data_list = FeishuTestCase(app_id, app_secret, app_token, table_id).get_bitable_data()
+        data_list = FeishuTestCase(APP_ID, APP_SECRET, APP_TOKEN, TABLE_ID).get_bitable_data()
 
         # 如果 data_list 已经是列表格式的记录，直接使用
         return data_list  # 或者根据需要进行其他处理
