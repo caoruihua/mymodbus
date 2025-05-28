@@ -36,7 +36,7 @@ MONGO_DBNAME = "emsData_analyze"   #数据库库名
 # MONGO_COLLECTION = 'SysDetail_TS4320240814_20250125'
 
 # 集群数据库
-Local_Example_MONGO_HOST = "mongodb://localhost:27017/"
+Local_Example_MONGO_HOST = "mongodb://RS-01:27017,RS-02:27017/"
 Local_Example_MONGO_DBNAME = "emsData_analyze"
 
 #集群数据库
@@ -44,8 +44,8 @@ Local_Example_MONGO_DBNAME = "emsData_analyze"
 
 # 飞书相关信息
 # 应用相关信息, 从飞书开发者后台获取
-app_id = "cli_a75bec7099b5d00c"
-app_secret = "7pjGJdjbiVNeDCcEH87huhqjloDyjknm"
+APP_ID = "cli_a75bec7099b5d00c"
+APP_SECRET = "7pjGJdjbiVNeDCcEH87huhqjloDyjknm"
 # 表信息,在飞书中复制连接获取
-app_token = "YLnMbpF04adU1es17Psc9fGgn4g"
-table_id = "tblK5e7kvbMprrws"
+APP_TOKEN = "YLnMbpF04adU1es17Psc9fGgn4g"
+TABLE_ID = "tblK5e7kvbMprrws"

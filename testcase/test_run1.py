@@ -21,33 +21,32 @@ def dynamic_title(test_data):
         # 动态生成标题
         allure.dynamic.title(test_data["Title"])
 
-    if test_data["storyName"] is not None:
-        # 动态获取story模块名
-        allure.dynamic.story(test_data["storyName"])
+    # if test_data["storyName"] is not None:
+    #     # 动态获取story模块名
+    #     allure.dynamic.story(test_data["storyName"])
 
-    if test_data["featureName"] is not None:
-        # 动态获取feature模块名
-        allure.dynamic.feature(test_data["featureName"])
-
-    if test_data["remark"] is not None:
-        # 动态获取备注信息
-        allure.dynamic.description(test_data["remark"])
-
-    if test_data["rank"] is not None:
-        # 动态获取级别信息(blocker、critical、normal、minor、trivial)
-        allure.dynamic.severity(test_data["rank"])
-
+    # if test_data["featureName"] is not None:
+    #     # 动态获取feature模块名
+    #     allure.dynamic.feature(test_data["featureName"])
+    #
+    # if test_data["remark"] is not None:
+    #     # 动态获取备注信息
+    #     allure.dynamic.description(test_data["remark"])
+    #
+    # if test_data["rank"] is not None:
+    #     # 动态获取级别信息(blocker、critical、normal、minor、trivial)
+    #     allure.dynamic.severity(test_data["rank"])
 # 获取飞书数据
 def test_data():
     global feishu_test_case
-    feishu_test_case = FeishuTestCase(app_id, app_secret, app_token, table_id)
+    feishu_test_case = FeishuTestCase(APP_ID, APP_SECRET, APP_TOKEN, TABLE_ID)
     feishu_case_data = feishu_test_case.get_bitable_data()
     return feishu_case_data
 
 @pytest.mark.parametrize("test_data", test_data())
 def test_modbus_and_mongodb(test_data):
+
     # 测试逻辑
-    print(type(test_data))
     ip = test_data.get("ip")
     port = test_data.get("port")
     address = int(test_data.get("address"))
@@ -61,7 +60,7 @@ def test_modbus_and_mongodb(test_data):
     collection = test_data.get("collection")
     expected_result = test_data.get("Expected_result")
     record_id = test_data.get("record_id")
-
+    dynamic_title(test_data)
     try:
         # 写入modbus数据
         modbus_data = ProcessModbusData(ip, port, address, count, slave, function_code, write_value, datatype, dataformat).write_modbus_register()
@@ -78,11 +77,15 @@ def test_modbus_and_mongodb(test_data):
         # mongodb获取结果更新到飞书
         feishu_test_case.updata_bitable_data(record_id, "Mongomysqlresult", mg_data)
         db_logger.info(f"MongoDB 数据写入成功: {mg_data}")
+        print(f"预期结果：{expected_result}，mongo提取结果{mg_data}")
+        print(type(expected_result))
+        print(type(mg_data))
     except Exception as e:
         db_logger.error(f"MongoDB 数据获取失败: {e}")
         pytest.fail("MongoDB 数据获取失败")
 
     if float(expected_result) == float(mg_data):
+
         feishu_test_case.updata_bitable_data(record_id, "checkResult", "成功")
     else:
         feishu_test_case.updata_bitable_data(record_id, "checkResult", "失败")
